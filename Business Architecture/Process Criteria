@@ -1,0 +1,26 @@
+{
+    "name": "Process Criteria"
+    "version": "4.8",
+    "criteria": [
+        {
+            "name": "Execution-Focused",
+            "guiding_question": "Does this involve structured steps to achieve an outcome?",
+            "explanation": "A business process consists of structured execution workflows rather than defining high-level outcomes."
+        },
+        {
+            "name": "Step-Driven Completion",
+            "guiding_question": "Does this process have a clear start and end state?",
+            "explanation": "Business processes should follow defined steps with clear triggers and outcomes."
+        },
+        {
+            "name": "Operational & Task-Oriented",
+            "guiding_question": "Is this a structured operation that enables capability execution?",
+            "explanation": "A business process represents the execution path of a capability."
+        },
+        {
+            "name": "Measurement & Workflow Efficiency",
+            "guiding_question": "Can this process be optimized, automated, or measured for efficiency?",
+            "explanation": "Business processes can be streamlined and automated to improve execution efficiency."
+        }
+    ]
+}
