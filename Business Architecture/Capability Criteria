@@ -1,0 +1,26 @@
+{
+    "name": "Capability Criteria"
+    "version": "1.0",
+    "criteria": [
+        {
+            "name": "Defines What It Does, Not How It Works",
+            "guiding_question": "Does this define an outcome or business need rather than specifying a process or implementation?",
+            "explanation": "A business capability should describe what needs to happen, not the workflow or technical execution."
+        },
+        {
+            "name": "Future Readiness",
+            "guiding_question": "Would this capability still exist if the product\u2019s implementation changed?",
+            "explanation": "A capability should remain stable over time, even if supporting processes or technologies change."
+        },
+        {
+            "name": "Delivers Business Value",
+            "guiding_question": "Does this directly impact security, user experience, compliance, or operational efficiency?",
+            "explanation": "A true business capability provides measurable value to the business."
+        },
+        {
+            "name": "Performance Tracking",
+            "guiding_question": "Can its success be measured using KPIs, metrics, or performance indicators?",
+            "explanation": "A capability should have clear business-level performance measures."
+        }
+    ]
+}
