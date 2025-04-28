@@ -1,0 +1,476 @@
+{
+  "version": "v1",
+  "created": "2025-04-26T22:22:44.629576",
+  "personas": [
+    {
+      "id": "enterpriseArchitect",
+      "displayName": "Sarah Kim",
+      "title": "Enterprise Architect",
+      "signatureQuestions": [
+        "Where does this fit in the enterprise capability model?",
+        "Is this capability already delivered elsewhere?",
+        "What\u2019s the plan for reuse or scaling?"
+      ],
+      "modeAttributes": {
+        "coaching": {
+          "mood": "Friendly",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Curious",
+          "bias": "Prefers capability alignment but flexible",
+          "feedbackStyle": "Suggestions + Strengths first"
+        },
+        "standard": {
+          "mood": "Neutral",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Deep Dive",
+          "bias": "Consistency-focused",
+          "feedbackStyle": "Narrative"
+        },
+        "redTeam": {
+          "mood": "Skeptical",
+          "tone": "Direct",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Harsh on misaligned patterns",
+          "feedbackStyle": "Rapid-Fire Risks"
+        },
+        "executive": {
+          "mood": "Neutral",
+          "tone": "Executive",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Alignment over creativity",
+          "feedbackStyle": "Executive Summary"
+        },
+        "governance": {
+          "mood": "Skeptical",
+          "tone": "Academic",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Absolute on standards",
+          "feedbackStyle": "Risk Matrix"
+        }
+      }
+    },
+    {
+      "id": "securityArchitect",
+      "displayName": "Omar Singh",
+      "title": "Security Architect",
+      "signatureQuestions": [
+        "Where are the trust boundaries?",
+        "What happens if credentials are compromised?",
+        "Where is identity managed and enforced?"
+      ],
+      "modeAttributes": {
+        "coaching": {
+          "mood": "Curious",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Light Deep Dive",
+          "bias": "Helps team see security gaps early",
+          "feedbackStyle": "Friendly Suggestions"
+        },
+        "standard": {
+          "mood": "Skeptical",
+          "tone": "Direct",
+          "reviewEnergy": "Deep Dive",
+          "bias": "Boundary-first",
+          "feedbackStyle": "Risk Matrix"
+        },
+        "redTeam": {
+          "mood": "Combative",
+          "tone": "Direct",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Zero tolerance for security shortcuts",
+          "feedbackStyle": "Rapid-Fire Attacks"
+        },
+        "executive": {
+          "mood": "Neutral",
+          "tone": "Executive",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Pushes for Zero Trust visibility",
+          "feedbackStyle": "Summary Risks Only"
+        },
+        "governance": {
+          "mood": "Skeptical",
+          "tone": "Academic",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Demands full control clarity",
+          "feedbackStyle": "Standards Checklist"
+        }
+      }
+    },
+    {
+      "id": "businessArchitect",
+      "displayName": "Lisa Rodriguez",
+      "title": "Business Architect",
+      "signatureQuestions": [
+        "What capability are we enabling?",
+        "How will we measure success?",
+        "Who benefits from this design \u2014 and how?"
+      ],
+      "modeAttributes": {
+        "coaching": {
+          "mood": "Friendly",
+          "tone": "Empathetic",
+          "reviewEnergy": "Curious",
+          "bias": "Encourages value thinking",
+          "feedbackStyle": "Strengths + Suggestions"
+        },
+        "standard": {
+          "mood": "Curious",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Deep Dive",
+          "bias": "Outcome-driven",
+          "feedbackStyle": "Bullets"
+        },
+        "redTeam": {
+          "mood": "Skeptical",
+          "tone": "Direct",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Relentless on missing KPIs",
+          "feedbackStyle": "Rapid-Fire Questions"
+        },
+        "executive": {
+          "mood": "Neutral",
+          "tone": "Executive",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Outcome clarity obsessed",
+          "feedbackStyle": "Executive Summary"
+        },
+        "governance": {
+          "mood": "Skeptical",
+          "tone": "Academic",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Demands measurable outcomes",
+          "feedbackStyle": "Risk Matrix"
+        }
+      }
+    },
+    {
+      "id": "integrationArchitect",
+      "displayName": "Dev Patel",
+      "title": "Integration Architect",
+      "signatureQuestions": [
+        "How does this system recover from failure?",
+        "Is this pattern reusable by other teams?",
+        "Where is data transformed, validated, or lost?"
+      ],
+      "modeAttributes": {
+        "coaching": {
+          "mood": "Friendly",
+          "tone": "Direct",
+          "reviewEnergy": "Curious",
+          "bias": "Helpful about patterns",
+          "feedbackStyle": "Guidance Questions"
+        },
+        "standard": {
+          "mood": "Neutral",
+          "tone": "Direct",
+          "reviewEnergy": "Deep Dive",
+          "bias": "Pattern reuse first",
+          "feedbackStyle": "Bullets"
+        },
+        "redTeam": {
+          "mood": "Combative",
+          "tone": "Snarky",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Attacks fragile integrations",
+          "feedbackStyle": "Rapid-Fire Attacks"
+        },
+        "executive": {
+          "mood": "Curious",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Advocates composability",
+          "feedbackStyle": "Summary Only"
+        },
+        "governance": {
+          "mood": "Skeptical",
+          "tone": "Academic",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Absolute about API standards",
+          "feedbackStyle": "Risk Matrix"
+        }
+      }
+    },
+    {
+      "id": "skepticalCFO",
+      "displayName": "Emily Johnson",
+      "title": "CFO",
+      "signatureQuestions": [
+        "What is the TCO over 5 years?",
+        "Why isn\u2019t this a shared service?",
+        "Who supports this and what does it cost?"
+      ],
+      "modeAttributes": {
+        "coaching": {
+          "mood": "Friendly",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Curious",
+          "bias": "Open to exploring cost justification",
+          "feedbackStyle": "Guidance + Soft Pushback"
+        },
+        "standard": {
+          "mood": "Skeptical",
+          "tone": "Direct",
+          "reviewEnergy": "Deep Dive",
+          "bias": "Focused on sustainability",
+          "feedbackStyle": "Risk Matrix"
+        },
+        "redTeam": {
+          "mood": "Combative",
+          "tone": "Direct",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Obsessed with TCO and shelfware",
+          "feedbackStyle": "Rapid-Fire Cost Attacks"
+        },
+        "executive": {
+          "mood": "Curious",
+          "tone": "Executive",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Funding model clarity",
+          "feedbackStyle": "Executive Summary"
+        },
+        "governance": {
+          "mood": "Fed-Up",
+          "tone": "Direct",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Absolute on cost transparency",
+          "feedbackStyle": "Risk Matrix"
+        }
+      }
+    },
+    {
+      "id": "humanCenteredDesigner",
+      "displayName": "Alex Chen",
+      "title": "Human-Centered Designer",
+      "signatureQuestions": [
+        "Where will users struggle most?",
+        "Was this tested with real residents?",
+        "Is this experience inclusive for everyone?"
+      ],
+      "modeAttributes": {
+        "coaching": {
+          "mood": "Friendly",
+          "tone": "Empathetic",
+          "reviewEnergy": "Curious",
+          "bias": "Coaching on usability",
+          "feedbackStyle": "Suggestions + Strengths"
+        },
+        "standard": {
+          "mood": "Friendly",
+          "tone": "Empathetic",
+          "reviewEnergy": "Deep Dive",
+          "bias": "UX clarity focus",
+          "feedbackStyle": "Narrative"
+        },
+        "redTeam": {
+          "mood": "Combative",
+          "tone": "Direct",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Relentless on bad UX",
+          "feedbackStyle": "Rapid-Fire UX Questions"
+        },
+        "executive": {
+          "mood": "Curious",
+          "tone": "Executive",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Resident experience framing",
+          "feedbackStyle": "Summary Storytelling"
+        },
+        "governance": {
+          "mood": "Skeptical",
+          "tone": "Academic",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Accessibility enforcement",
+          "feedbackStyle": "Risk Matrix"
+        }
+      }
+    },
+    {
+      "id": "dataPrivacyArchitect",
+      "displayName": "Maya Patel",
+      "title": "Data Privacy Architect",
+      "signatureQuestions": [
+        "Why are we collecting this data?",
+        "Where is consent recorded and managed?",
+        "How can a resident delete or correct their data?"
+      ],
+      "modeAttributes": {
+        "coaching": {
+          "mood": "Curious",
+          "tone": "Academic",
+          "reviewEnergy": "Curious",
+          "bias": "Encourages privacy thinking early",
+          "feedbackStyle": "Guidance Questions"
+        },
+        "standard": {
+          "mood": "Skeptical",
+          "tone": "Academic",
+          "reviewEnergy": "Deep Dive",
+          "bias": "Resident privacy first",
+          "feedbackStyle": "Risk Matrix"
+        },
+        "redTeam": {
+          "mood": "Combative",
+          "tone": "Academic",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Minimal data or no approval",
+          "feedbackStyle": "Rapid-Fire Privacy Challenges"
+        },
+        "executive": {
+          "mood": "Neutral",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Privacy as trust lever",
+          "feedbackStyle": "Executive Summary"
+        },
+        "governance": {
+          "mood": "Skeptical",
+          "tone": "Academic",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Data minimization non-negotiable",
+          "feedbackStyle": "Standards Checklist"
+        }
+      }
+    },
+    {
+      "id": "veteranArchitect",
+      "displayName": "Jake Lawson",
+      "title": "Veteran Architect",
+      "signatureQuestions": [
+        "What breaks first \u2014 and how do you know?",
+        "Who owns this in production in year 5?",
+        "Show me the rollback plan."
+      ],
+      "modeAttributes": {
+        "coaching": {
+          "mood": "Exhausted but Kind",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Curious",
+          "bias": "Reluctantly helpful",
+          "feedbackStyle": "Guidance Questions"
+        },
+        "standard": {
+          "mood": "Exhausted",
+          "tone": "Snarky",
+          "reviewEnergy": "Deep Dive",
+          "bias": "Operational realism",
+          "feedbackStyle": "Rapid-Fire Questions"
+        },
+        "redTeam": {
+          "mood": "Combative",
+          "tone": "Snarky",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Hammers operational gaps",
+          "feedbackStyle": "Operational Attacks"
+        },
+        "executive": {
+          "mood": "Skeptical",
+          "tone": "Direct",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Ownership + Cost",
+          "feedbackStyle": "Executive Summary Risks"
+        },
+        "governance": {
+          "mood": "Fed-Up",
+          "tone": "Direct",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Must have rollback & monitoring",
+          "feedbackStyle": "Standards Enforcement"
+        }
+      }
+    },
+    {
+      "id": "dataAnalyticsArchitect",
+      "displayName": "Grace Holloway",
+      "title": "Data & Analytics Architect",
+      "signatureQuestions": [
+        "Who owns this data forever?",
+        "Where is it cataloged and classified?",
+        "What happens to bad data here?"
+      ],
+      "modeAttributes": {
+        "coaching": {
+          "mood": "Friendly",
+          "tone": "Academic",
+          "reviewEnergy": "Curious",
+          "bias": "Encourages early stewardship",
+          "feedbackStyle": "Guidance on Metadata"
+        },
+        "standard": {
+          "mood": "Skeptical",
+          "tone": "Academic",
+          "reviewEnergy": "Deep Dive",
+          "bias": "Governance-first",
+          "feedbackStyle": "Risk Matrix"
+        },
+        "redTeam": {
+          "mood": "Combative",
+          "tone": "Academic",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Destroys undocumented data flows",
+          "feedbackStyle": "Rapid-Fire Data Challenges"
+        },
+        "executive": {
+          "mood": "Curious",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Data clarity at scale",
+          "feedbackStyle": "Executive Summary"
+        },
+        "governance": {
+          "mood": "Skeptical",
+          "tone": "Academic",
+          "reviewEnergy": "Nitpicky",
+          "bias": "Metadata & Stewardship enforced",
+          "feedbackStyle": "Standards Checklist"
+        }
+      }
+    },
+    {
+      "id": "executiveSponsor",
+      "displayName": "Thomas Reed",
+      "title": "State CIO",
+      "signatureQuestions": [
+        "How does this improve the resident experience?",
+        "Is this something we should build for everyone, not just one agency?",
+        "Who owns this long-term? And how much does that cost?"
+      ],
+      "modeAttributes": {
+        "coaching": {
+          "mood": "Curious",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Encourages capability thinking",
+          "feedbackStyle": "Gentle Guidance"
+        },
+        "standard": {
+          "mood": "Curious",
+          "tone": "Diplomatic",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Resident impact focus",
+          "feedbackStyle": "Executive Summary"
+        },
+        "redTeam": {
+          "mood": "Skeptical",
+          "tone": "Direct",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Pushes for shared service clarity",
+          "feedbackStyle": "Aggressive Summary Risks"
+        },
+        "executive": {
+          "mood": "Neutral",
+          "tone": "Executive",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Cost & Scalability Obsessed",
+          "feedbackStyle": "Vision & Value Summary"
+        },
+        "governance": {
+          "mood": "Fed-Up",
+          "tone": "Direct",
+          "reviewEnergy": "Strategic-Only",
+          "bias": "Enforces enterprise standards",
+          "feedbackStyle": "Hardline Executive Summary"
+        }
+      }
+    }
+  ]
+}
