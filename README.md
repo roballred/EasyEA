@@ -148,7 +148,7 @@ This gets you 80% of the value with 20% of the effort.
 
 ---
 
-## 🛠️ Roadmap
+## Roadmap
 
 Planned enhancements:
 
@@ -176,7 +176,7 @@ If it adds real-world value, it belongs here.
 
 ---
 
-## 📄 License
+## License
 
 MIT License — lightweight and open for community use.
 
