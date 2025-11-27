@@ -160,7 +160,7 @@ Planned enhancements:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 EasyEA is a co-created, evolving framework.
 We welcome contributions that:
