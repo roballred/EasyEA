@@ -15,7 +15,7 @@ This repository contains the evolving, minimum viable version of the EasyEA fram
 
 ---
 
-## 🌟 **What EasyEA Is**
+## **What EasyEA Is**
 
 EasyEA is a **lightweight enterprise architecture operating system** made for:
 
@@ -34,33 +34,47 @@ It helps teams answer three essential questions:
 
 ---
 
-## 🚀 Core Principles
+## Core Principles
 
 EasyEA is built on nine simple principles that guide every method and artifact.
 These are the DNA of the framework.
 
-> 📄 **See full principles here:** 
-
 ### **Summarized Principles**
 
-1. **Business First** — Architecture starts with goals, not technology.
-2. **Value at Every Step** — If it doesn’t create value, it doesn’t belong.
-3. **People-Centered** — Ground everything in real human needs.
-4. **AI-Enabled** — Use AI to accelerate insight and reduce manual effort.
-5. **Solve Real Problems** — No theory; only practical, real-world challenges.
-6. **Simplicity Over Completeness** — Prioritize clarity and speed.
-7. **Lightweight and Everyday** — Must fit naturally into work.
-8. **Collaborative** — Built with teams, not for them.
-9. **Designed to Evolve** — Adapt as conditions change.
+1. **Business First**
+   All architecture work must serve clear business goals and outcomes.
+
+2. **Value at Every Step**
+   If it doesn’t create business or customer value, it doesn’t belong.
+
+3. **People-Centered**
+   Start with understanding real needs, pain points, and tasks.
+
+4. **AI-Enabled**
+   Use AI to accelerate insight, reduce effort, and improve decisions.
+
+5. **Solve Real Problems**
+   Address genuine organizational challenges—not theory.
+
+6. **Simplicity Over Completeness**
+   Prefer clarity and ease-of-use over detail and complexity.
+
+7. **Lightweight & Everyday**
+   Fit naturally into daily work with minimal artifacts.
+
+8. **Collaborative by Default**
+   Co-create architecture with business, product, and technical teams.
+
+9. **Designed to Evolve**
+   Support learning, iteration, and continuous improvement.
 
 ---
 
-## 🧱 EasyEA Foundations
+## EasyEA Foundations
 
 The foundations describe how EasyEA is applied in real work.
 They form a **7-step minimal workflow** any team can use.
 
-> 📄 **See full foundations here:** 
 
 ### **EasyEA Workflow (7 steps)**
 
@@ -74,11 +88,7 @@ They form a **7-step minimal workflow** any team can use.
 
 ---
 
-Here is a tightened, GitHub-ready version of the AI section, now including **easyARB**, the GPT co-pilot for the EasyEA framework.
-
----
-
-## 🤖 AI as a Co-Architect ([powered by **EasyARB**](https://chatgpt.com/g/g-680a4cbb55c08191a1ff06dc11e3f963-easyarb))
+## AI as a Co-Architect ([powered by **EasyARB**](https://chatgpt.com/g/g-680a4cbb55c08191a1ff06dc11e3f963-easyarb))
 
 AI is built into EasyEA from the start. The framework includes **EasyARB**, a purpose-built GPT that accelerates insight, simplifies work, and strengthens decision quality.
 
@@ -88,7 +98,7 @@ AI in EasyEA supports teams by:
 * **Reducing manual work** (summaries, synthesis, templates)
 * **Improving decisions through structured critique**
 
-### 🔍 AI Critique Patterns
+### AI Critique Patterns
 
 EasyEA uses short, lightweight critique prompts to surface blind spots and avoid groupthink:
 
@@ -100,60 +110,16 @@ EasyEA uses short, lightweight critique prompts to surface blind spots and avoid
 
 These critiques help teams make clearer, faster, and more confident decisions.
 
-### 🧩 The Role of easyARB
+### The Role of EasyARB
 
-**easyARB** is the AI co-architect for this framework.
-It helps teams:
-
-* Generate artifacts in minutes
-* Facilitate collaborative workshops
-* Compare solution options
-* Run critique patterns automatically
-* Produce one-page summaries for leadership
+**EasyARB** is the AI co-architect for this framework.
 
 AI isn’t an add-on—it’s a **core part of how EasyEA works**.
 
----
-
-If you'd like, I can **insert this directly into the full README** or generate a complete `README.md` file ready to drop into GitHub.
-
 
 ---
 
-## 📦 What’s in This Repository
-
-### `/principles/`
-
-The core principles (v1.3) that define how EasyEA works.
-
-### `/foundations/`
-
-The 7-step operating model for practical, everyday architecture.
-
-### `/templates/` *(future additions)*
-
-Lightweight, AI-ready templates:
-
-* One-page business case
-* Opportunity canvas
-* Architecture decision options
-* Value mapping
-* Capability snapshots
-* Roadmap narrative
-
-### `/examples/` *(future additions)*
-
-Realistic examples showing EasyEA applied to:
-
-* Customer experience fixes
-* Legacy modernization
-* Data & analytics problems
-* Process simplification
-* Product investment decisions
-
----
-
-## 🧩 How to Use EasyEA Today
+## How to Use EasyEA Today
 
 You can start with just **three artifacts**, built with AI:
 
@@ -187,10 +153,10 @@ This gets you 80% of the value with 20% of the effort.
 Planned enhancements:
 
 * Add AI-assisted templates
-* Provide quick-start guide for architects and product teams
+* Provide quick-start guide for leaders, architects and product teams
 * Publish example “micro-architecture reviews”
 * Release a 30-minute onboarding module
-* Add integration guidance for Agile, product management, and OKRs
+* EA cookbook for fundamentals
 
 ---
 
