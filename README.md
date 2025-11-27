@@ -78,9 +78,9 @@ Here is a tightened, GitHub-ready version of the AI section, now including **eas
 
 ---
 
-## 🤖 AI as a Co-Architect (powered by **easyARB**)
+## 🤖 AI as a Co-Architect ([powered by **easyARB**](https://chatgpt.com/g/g-680a4cbb55c08191a1ff06dc11e3f963-easyarb))
 
-AI is built into EasyEA from the start. The framework includes **easyARB**, a purpose-built GPT that accelerates insight, simplifies work, and strengthens decision quality.
+AI is built into EasyEA from the start. The framework includes **EasyARB**, a purpose-built GPT that accelerates insight, simplifies work, and strengthens decision quality.
 
 AI in EasyEA supports teams by:
 
