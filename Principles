@@ -1,29 +1,39 @@
-Guiding principles for the development of the EasyEA framework
 
-1. Start with Real-World Needs
-Build the framework based on actual challenges organizations face, not theoretical ideas.
+EasyEA – Framework Creating Principles (v1.3)
 
-2. Make It Easy to Learn
-Ensure the framework can be understood and used by anyone.
+1. Business First
+All architecture decisions must begin with business goals, priorities, and desired outcomes.
+Technology serves the business—never the reverse.
 
-3. Focus on Quick Wins
-Design the framework to deliver results quickly
+2. Value at Every Step
+EasyEA must help teams identify value, deliver value, and measure value.
+If something does not create meaningful business or customer value, it does not belong in the framework.
 
-4. Provide Clear Guidance
-Create simple, actionable steps for users to follow.
+3. People-Centered by Design
+The framework must start with understanding people—their needs, pain points, tasks, and experiences.
+Architecture improves how customers, employees, and partners interact with services, processes, and systems.
 
-5. Prioritize Collaboration
-Design the framework to encourage teamwork across departments and teams.
+4. AI-Enabled from the Beginning
+AI must be integrated into how EasyEA is designed and used.
+AI should accelerate insight, reduce manual effort, and enhance decision-making across all architecture activities.
 
-6. Keep It Lightweight
-Avoid overloading the framework with unnecessary layers or complexity.
+5. Rooted in Real Organizational Challenges
+Every method, artifact, and recommendation must address real issues organizations face—alignment gaps, legacy complexity, siloed teams, customer experience problems, and delivery friction.
+No academic models or theoretical constructs.
 
-7. Test and Evolve
-The framework improves over time based on feedback and results.
+6. Simplicity Over Completeness
+EasyEA prioritizes clarity, usability, and speed.
+Anything that cannot be explained quickly or used easily must be simplified or removed.
 
-8. Encourage Experimentation
-The framework is open to testing new ideas without fear of failure.
+7. Lightweight and Built for Everyday Work
+The framework must fit naturally into business, product, and delivery workflows.
+Minimal artifacts. Lean governance. Just enough structure to support good decisions.
 
-9. Focus on Outcomes, Not Outputs
-Design the framework to prioritize achieving meaningful results rather than just producing documentation or models.
+8. Collaborative by Default
+Architecture must be created with business, product, and technology teams.
+The framework supports shared understanding, joint decision-making, and co-creation.
+
+9. Designed to Evolve
+EasyEA is a continuous, learning-focused framework.
+It supports experimentation, feedback loops, incremental improvement, and adaptation as conditions change.
 
