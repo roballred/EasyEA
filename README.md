@@ -143,7 +143,6 @@ You can start with just **three artifacts**, built with AI:
    * Tradeoffs
    * Recommended way forward
 
-This gets you 80% of the value with 20% of the effort.
 
 ---
 
