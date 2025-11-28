@@ -22,7 +22,7 @@ EasyEA is a **lightweight enterprise architecture operating system** made for:
 * Public agencies
 * Mid-size enterprises
 * Product and transformation teams
-* People who need clarit to deliver value quickly
+* People who need clarity to deliver value quickly
 
 EasyEA focuses on **decision-making**.
 It helps teams answer three essential questions:
