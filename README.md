@@ -9,7 +9,7 @@ Unlike traditional EA frameworks, EasyEA is:
 * **Business-aligned** (goals → value → measurable outcomes)
 * **Human-centered** (start with real people and their real needs)
 * **AI-enabled** (integrates AI into every step)
-* **Built for real organizations**, not academia
+* **Built for real organizations**,more practical and less theoretical
 
 This repository contains the evolving, minimum viable version of the EasyEA framework—co-created with teams, tested through real work, and designed to evolve.
 
@@ -22,10 +22,9 @@ EasyEA is a **lightweight enterprise architecture operating system** made for:
 * Public agencies
 * Mid-size enterprises
 * Product and transformation teams
-* Leaders who need clarity without bureaucracy
-* Architects who want to deliver value quickly
+* People who need clarit to deliver value quickly
 
-EasyEA focuses on **decision-making**, not documentation.
+EasyEA focuses on **decision-making**.
 It helps teams answer three essential questions:
 
 1. **What are we trying to achieve?**
