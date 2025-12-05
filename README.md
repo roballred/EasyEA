@@ -6,7 +6,7 @@ It exists for one purpose: **help organizations make better decisions, faster, w
 Unlike traditional EA frameworks, EasyEA is:
 
 * **Simple** (no jargon, no heavy artifacts)
-* **Business-aligned** (goals → value → measurable outcomes)
+* **Business-focused** (goals → value → measurable outcomes)
 * **Human-centered** (start with real people and their real needs)
 * **AI-enabled** (integrates AI into every step)
 * **Built for real organizations**,more practical and less theoretical
