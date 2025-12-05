@@ -178,6 +178,3 @@ If it adds real-world value, it belongs here.
 
 MIT License — lightweight and open for community use.
 
----
-
-If you'd like, I can also generate a **LICENSE file**, **folder structure**, or upload-ready **README.md** with formatting, badges, and links.
