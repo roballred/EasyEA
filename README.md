@@ -72,10 +72,27 @@ These are the DNA of the framework.
 ## EasyEA Foundations
 
 The foundations describe how EasyEA is applied in real work.
-They form a **7-step minimal workflow** any team can use.
+
+### **Outside-In Value**
+
+We start with a simple idea: value does not come from our organization. It comes from the people we serve.
+
+Residents, businesses, and partners show us what value means through their needs, their life events, where they want to improve and where they struggle. That lived experience is the most reliable signal of what matters.
+
+From those needs, we define value outcomes. These are plain-language statements of success from the customer’s point of view, like faster service, better access, fewer errors, or higher trust.
+
+Leadership’s role is not to invent value, but to steward it. That means deciding which value outcomes we can responsibly deliver, and when, based on mission, policy intent, legal requirements, resources, and public accountability.
+
+Once we’ve made that commitment, the organization aligns around it. We look at the same value through three lenses: who it’s for, how it’s experienced over time, and what we must be good at to deliver it consistently.
+
+Capabilities, processes, services, and systems are not the starting point. They are our response to the value we’ve committed to deliver.
+
+And we know we’re succeeding only if customer outcomes improve and trust is maintained or improved. If the experience doesn’t get better, the work isn’t done.
+
+This approach helps us focus investments, reduce fragmentation, and make sure everything we build serves real people and real outcomes.
 
 
-### **EasyEA Workflow (7 steps)**
+### **EasyEA Workflow**
 
 1. **Set the Direction** — Align on goals, problems, and constraints.
 2. **Understand the People** — Learn needs, pain points, and desired outcomes.
@@ -84,6 +101,9 @@ They form a **7-step minimal workflow** any team can use.
 5. **Choose the Way Forward** — Compare options and make confident decisions.
 6. **Coordinate the Work** — Define clear steps, ownership, funding, and alignment.
 7. **Track and Adjust** — Measure outcomes, learn, and improve continuously.
+
+
+
 
 ---
 
