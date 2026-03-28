@@ -3,6 +3,13 @@
   "created": "2026-03-27",
   "product": "WaTech Application Inventory",
   "description": "Configurable business rules for the WaTech Application Inventory web app. These rules are managed by WaTech admins through the app and drive notifications, validations, and data quality logic.",
+  "architecturalPrinciples": {
+    "alerting": {
+      "v1_scope": "WaTech-controlled only",
+      "future": "Designed for extensibility — agency-defined alerts to be added in a future release",
+      "note": "Alert engine should be built as a generic rules processor, not hardcoded to specific metrics"
+    }
+  },
   "rules": {
     "stalenessThresholds": {
       "description": "How long before an application record is considered stale and triggers a notification",
