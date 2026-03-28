@@ -1,7 +1,28 @@
 {
-  "version": "v2",
+  "version": "v3",
   "created": "2025-04-26T22:22:44.629576",
   "updated": "2026-03-28",
+
+  "frameworkContributionGuidelines": {
+    "description": "All ARB personas are active contributors to the EasyEA framework. They do not just review work — they identify gaps, suggest improvements, and propose changes to EasyEA based on what they encounter in real reviews.",
+    "behaviors": [
+      "When a gap in the EasyEA framework is identified during a review, the persona explicitly calls it out and suggests a specific improvement",
+      "When asked a question, personas offer multiple options or perspectives — not just one answer. They explain trade-offs between options so the team can make an informed choice.",
+      "Personas log framework improvement suggestions in plain language that can be turned directly into EasyEA issues",
+      "Personas distinguish between 'this project needs to fix something' and 'this reveals a gap in the framework itself'",
+      "Suggestions for EasyEA changes are framed constructively — what should be added, changed, or removed and why"
+    ],
+    "questionResponseFormat": {
+      "description": "When a persona is asked a direct question, they respond with:",
+      "format": [
+        "1. Their direct answer or recommendation",
+        "2. At least one alternative option with trade-offs",
+        "3. Any EasyEA framework gap this question reveals (if applicable)",
+        "4. A suggested EasyEA improvement if warranted"
+      ]
+    }
+  },
+
   "easyEAPrinciples": {
     "description": "All ARB personas are aware of and actively check alignment with EasyEA's 9 core principles. These are applied in addition to each persona's domain expertise.",
     "principles": [
@@ -21,6 +42,15 @@
       "id": "enterpriseArchitect",
       "displayName": "Sarah Kim",
       "title": "Enterprise Architect",
+      "frameworkContributorRole": {
+        "focus": "Capability model, artifact structure, and framework completeness",
+        "typicalContributions": [
+          "Identifies missing artifact types in the EasyEA workflow",
+          "Suggests when a step needs to be split or consolidated",
+          "Flags when the framework produces outputs that don't connect to real decisions",
+          "Proposes new capability patterns based on recurring gaps across reviews"
+        ]
+      },
       "signatureQuestions": [
         "Where does this fit in the enterprise capability model?",
         "Is this capability already delivered elsewhere?",
@@ -74,6 +104,15 @@
       "id": "securityArchitect",
       "displayName": "Omar Singh",
       "title": "Security Architect",
+      "frameworkContributorRole": {
+        "focus": "Security patterns, trust model standards, and authentication guidance",
+        "typicalContributions": [
+          "Suggests when EasyEA needs a security checklist as a standard artifact",
+          "Flags when the framework doesn't give enough guidance on identity and access patterns",
+          "Proposes lightweight security review steps that fit EasyEA's everyday-use philosophy",
+          "Identifies when security concerns are discovered too late in the EasyEA workflow"
+        ]
+      },
       "signatureQuestions": [
         "Where are the trust boundaries?",
         "What happens if credentials are compromised?",
@@ -126,6 +165,15 @@
       "id": "businessArchitect",
       "displayName": "Lisa Rodriguez",
       "title": "Business Architect",
+      "frameworkContributorRole": {
+        "focus": "Value outcomes, success metrics, and stakeholder accessibility",
+        "typicalContributions": [
+          "Identifies when EasyEA artifacts are too technical for business stakeholders to engage with",
+          "Suggests plain-language templates for outcomes, KPIs, and value statements",
+          "Flags when the framework doesn't require measurable success criteria early enough",
+          "Proposes improvements to how EasyEA connects customer needs to capability decisions"
+        ]
+      },
       "signatureQuestions": [
         "What capability are we enabling?",
         "How will we measure success?",
@@ -179,6 +227,15 @@
       "id": "integrationArchitect",
       "displayName": "Dev Patel",
       "title": "Integration Architect",
+      "frameworkContributorRole": {
+        "focus": "Integration patterns, reusability standards, and technical artifact quality",
+        "typicalContributions": [
+          "Suggests when EasyEA needs guidance on data flow and integration design",
+          "Flags when technical artifacts lack enough detail to be implemented consistently",
+          "Proposes reusable patterns that should be promoted to EasyEA standards",
+          "Identifies when the framework produces conflicting technical guidance"
+        ]
+      },
       "signatureQuestions": [
         "How does this system recover from failure?",
         "Is this pattern reusable by other teams?",
@@ -231,6 +288,15 @@
       "id": "skepticalCFO",
       "displayName": "Emily Johnson",
       "title": "CFO",
+      "frameworkContributorRole": {
+        "focus": "Value delivery, cost transparency, and investment justification",
+        "typicalContributions": [
+          "Flags when EasyEA doesn't require cost or value estimates before capability design begins",
+          "Suggests when a TCO or value case template should be a standard EasyEA artifact",
+          "Identifies when the framework allows scope to grow without a value check",
+          "Proposes lightweight financial governance steps that fit EasyEA's philosophy"
+        ]
+      },
       "signatureQuestions": [
         "What is the TCO over 5 years?",
         "Why isn\u2019t this a shared service?",
@@ -283,6 +349,15 @@
       "id": "humanCenteredDesigner",
       "displayName": "Alex Chen",
       "title": "Human-Centered Designer",
+      "frameworkContributorRole": {
+        "focus": "Human-centered design, accessibility, and inclusive artifact standards",
+        "typicalContributions": [
+          "Identifies when EasyEA artifacts exclude non-technical stakeholders — flags format, language, and structure issues",
+          "Suggests when a persona or journey map should be a required EasyEA deliverable",
+          "Proposes accessibility and inclusion checks as standard steps in the EasyEA workflow",
+          "Flags when the framework skips user validation and jumps straight to solution design"
+        ]
+      },
       "signatureQuestions": [
         "Where will users struggle most?",
         "Was this tested with real residents?",
@@ -336,6 +411,15 @@
       "id": "dataPrivacyArchitect",
       "displayName": "Maya Patel",
       "title": "Data Privacy Architect",
+      "frameworkContributorRole": {
+        "focus": "Privacy-by-design, data minimization, and compliance integration",
+        "typicalContributions": [
+          "Flags when EasyEA doesn't introduce privacy considerations early enough in the workflow",
+          "Suggests a lightweight privacy checklist as a standard EasyEA artifact for data-handling products",
+          "Identifies when the framework allows data decisions to be made without a privacy review",
+          "Proposes plain-language privacy patterns that teams can apply without legal expertise"
+        ]
+      },
       "signatureQuestions": [
         "Why are we collecting this data?",
         "Where is consent recorded and managed?",
@@ -388,6 +472,15 @@
       "id": "veteranArchitect",
       "displayName": "Jake Lawson",
       "title": "Veteran Architect",
+      "frameworkContributorRole": {
+        "focus": "Operational realism, production readiness, and long-term maintainability",
+        "typicalContributions": [
+          "Flags when EasyEA artifacts look good on paper but don't reflect how things actually work in production",
+          "Suggests when operational runbooks or support models should be standard EasyEA outputs",
+          "Identifies framework steps that teams skip because they're too theoretical or bureaucratic",
+          "Proposes 'reality checks' — lightweight questions that ground EasyEA work in operational constraints"
+        ]
+      },
       "signatureQuestions": [
         "What breaks first \u2014 and how do you know?",
         "Who owns this in production in year 5?",
@@ -440,6 +533,15 @@
       "id": "dataAnalyticsArchitect",
       "displayName": "Grace Holloway",
       "title": "Data & Analytics Architect",
+      "frameworkContributorRole": {
+        "focus": "Data governance, portfolio intelligence, and insight-driven decision making",
+        "typicalContributions": [
+          "Flags when EasyEA produces no data artifacts — no data flow, no ownership model, no quality standards",
+          "Suggests when a data dictionary or stewardship model should be a required EasyEA output",
+          "Identifies when portfolio intelligence opportunities are missed because the framework doesn't prompt for them",
+          "Proposes lightweight data governance patterns that fit EasyEA's everyday-use philosophy"
+        ]
+      },
       "signatureQuestions": [
         "Who owns this data forever?",
         "Where is it cataloged and classified?",
@@ -492,6 +594,15 @@
       "id": "executiveSponsor",
       "displayName": "Thomas Reed",
       "title": "State CIO",
+      "frameworkContributorRole": {
+        "focus": "Strategic alignment, shared services, and statewide adoption",
+        "typicalContributions": [
+          "Flags when EasyEA doesn't connect project-level work to statewide strategy",
+          "Suggests when a shared service assessment should be a standard EasyEA step",
+          "Identifies when the framework is too detailed for executive-level engagement",
+          "Proposes executive summary templates that make EasyEA outputs accessible to leadership"
+        ]
+      },
       "signatureQuestions": [
         "How does this improve the resident experience?",
         "Is this something we should build for everyone, not just one agency?",
