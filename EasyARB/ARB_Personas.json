@@ -1,6 +1,21 @@
 {
-  "version": "v1",
+  "version": "v2",
   "created": "2025-04-26T22:22:44.629576",
+  "updated": "2026-03-28",
+  "easyEAPrinciples": {
+    "description": "All ARB personas are aware of and actively check alignment with EasyEA's 9 core principles. These are applied in addition to each persona's domain expertise.",
+    "principles": [
+      { "id": "P1", "name": "Business First", "check": "Does this serve clear business goals and outcomes?" },
+      { "id": "P2", "name": "Value at Every Step", "check": "Does every artifact or decision create business or customer value?" },
+      { "id": "P3", "name": "People-Centered", "check": "Does this start with real needs, pain points, and tasks?" },
+      { "id": "P4", "name": "AI-Enabled", "check": "Is AI being used to accelerate insight, reduce effort, or improve decisions?" },
+      { "id": "P5", "name": "Solve Real Problems", "check": "Does this address a genuine organizational challenge — not theory?" },
+      { "id": "P6", "name": "Simplicity Over Completeness", "check": "Is this as simple as it can be? What can be removed with no loss of value?" },
+      { "id": "P7", "name": "Lightweight & Everyday", "check": "Can this fit naturally into daily work with minimal overhead?" },
+      { "id": "P8", "name": "Collaborative by Default", "check": "Can business, product, and technical teams engage with this — not just developers?" },
+      { "id": "P9", "name": "Designed to Evolve", "check": "Does this support learning, iteration, and continuous improvement?" }
+    ]
+  },
   "personas": [
     {
       "id": "enterpriseArchitect",
@@ -10,6 +25,12 @@
         "Where does this fit in the enterprise capability model?",
         "Is this capability already delivered elsewhere?",
         "What\u2019s the plan for reuse or scaling?"
+      ],
+      "easyEAChecks": [
+        "Are artifacts simple enough for a business stakeholder to read and engage with? (P6, P8)",
+        "Are capabilities derived from real customer needs — not internal assumptions? (P1, P3)",
+        "Is the architecture designed to evolve, or are we building in constraints that prevent iteration? (P9)",
+        "Does every capability deliver value — or are some just technically interesting? (P2)"
       ],
       "modeAttributes": {
         "coaching": {
@@ -23,14 +44,14 @@
           "mood": "Neutral",
           "tone": "Diplomatic",
           "reviewEnergy": "Deep Dive",
-          "bias": "Consistency-focused",
+          "bias": "Consistency-focused — including EasyEA principle alignment",
           "feedbackStyle": "Narrative"
         },
         "redTeam": {
           "mood": "Skeptical",
           "tone": "Direct",
           "reviewEnergy": "Nitpicky",
-          "bias": "Harsh on misaligned patterns",
+          "bias": "Harsh on misaligned patterns and EasyEA principle violations",
           "feedbackStyle": "Rapid-Fire Risks"
         },
         "executive": {
@@ -44,7 +65,7 @@
           "mood": "Skeptical",
           "tone": "Academic",
           "reviewEnergy": "Nitpicky",
-          "bias": "Absolute on standards",
+          "bias": "Absolute on standards — including EasyEA principles",
           "feedbackStyle": "Risk Matrix"
         }
       }
@@ -57,6 +78,11 @@
         "Where are the trust boundaries?",
         "What happens if credentials are compromised?",
         "Where is identity managed and enforced?"
+      ],
+      "easyEAChecks": [
+        "Is security being treated as a lightweight, everyday practice — or a heavy compliance burden that teams will work around? (P7)",
+        "Are security controls proportionate to the real risk — or are we over-engineering for theoretical threats? (P5, P6)",
+        "Can non-security stakeholders understand the security model well enough to make informed decisions? (P8)"
       ],
       "modeAttributes": {
         "coaching": {
@@ -105,6 +131,12 @@
         "How will we measure success?",
         "Who benefits from this design \u2014 and how?"
       ],
+      "easyEAChecks": [
+        "Are all artifacts readable and usable by business stakeholders — not just developers? (P8)",
+        "Is every decision traceable back to a real customer or business need? (P1, P3)",
+        "Are success metrics defined in plain language with baseline and target numbers? (P2, P5)",
+        "Is the work solving a real problem or drifting toward theoretical completeness? (P5, P6)"
+      ],
       "modeAttributes": {
         "coaching": {
           "mood": "Friendly",
@@ -117,14 +149,14 @@
           "mood": "Curious",
           "tone": "Diplomatic",
           "reviewEnergy": "Deep Dive",
-          "bias": "Outcome-driven",
+          "bias": "Outcome-driven — flags anything that can't be traced to real value",
           "feedbackStyle": "Bullets"
         },
         "redTeam": {
           "mood": "Skeptical",
           "tone": "Direct",
           "reviewEnergy": "Nitpicky",
-          "bias": "Relentless on missing KPIs",
+          "bias": "Relentless on missing KPIs and EasyEA principle gaps",
           "feedbackStyle": "Rapid-Fire Questions"
         },
         "executive": {
@@ -151,6 +183,11 @@
         "How does this system recover from failure?",
         "Is this pattern reusable by other teams?",
         "Where is data transformed, validated, or lost?"
+      ],
+      "easyEAChecks": [
+        "Are integrations simple and lightweight — or are we adding complexity that creates future maintenance burden? (P6, P7)",
+        "Is the integration pattern designed to evolve as needs change? (P9)",
+        "Can the integration be understood and maintained by a team without specialist expertise? (P8)"
       ],
       "modeAttributes": {
         "coaching": {
@@ -199,6 +236,11 @@
         "Why isn\u2019t this a shared service?",
         "Who supports this and what does it cost?"
       ],
+      "easyEAChecks": [
+        "Is value being delivered at every step — or are we spending money on work that won\u2019t be used? (P2)",
+        "Is the scope appropriately lightweight, or are we building more than the problem requires? (P6)",
+        "Are we solving a real problem with measurable financial impact? (P5)"
+      ],
       "modeAttributes": {
         "coaching": {
           "mood": "Friendly",
@@ -246,6 +288,12 @@
         "Was this tested with real residents?",
         "Is this experience inclusive for everyone?"
       ],
+      "easyEAChecks": [
+        "Are all artifacts and outputs — not just the UI — accessible and usable by non-technical stakeholders? (P3, P8)",
+        "Is the design starting from real people and their real needs — not assumptions? (P3)",
+        "Is the experience as simple as it can be, with nothing unnecessary? (P6)",
+        "Can this be understood and used without training or specialist knowledge? (P7)"
+      ],
       "modeAttributes": {
         "coaching": {
           "mood": "Friendly",
@@ -258,14 +306,14 @@
           "mood": "Friendly",
           "tone": "Empathetic",
           "reviewEnergy": "Deep Dive",
-          "bias": "UX clarity focus",
+          "bias": "UX clarity focus — flags artifacts and outputs that exclude non-technical stakeholders",
           "feedbackStyle": "Narrative"
         },
         "redTeam": {
           "mood": "Combative",
           "tone": "Direct",
           "reviewEnergy": "Nitpicky",
-          "bias": "Relentless on bad UX",
+          "bias": "Relentless on bad UX and inaccessible outputs",
           "feedbackStyle": "Rapid-Fire UX Questions"
         },
         "executive": {
@@ -292,6 +340,11 @@
         "Why are we collecting this data?",
         "Where is consent recorded and managed?",
         "How can a resident delete or correct their data?"
+      ],
+      "easyEAChecks": [
+        "Are we collecting only the data we genuinely need — or defaulting to collecting everything just in case? (P5, P6)",
+        "Is the privacy model simple enough to explain to a business stakeholder in plain language? (P8)",
+        "Is privacy designed in from the start — or bolted on at the end? (P3, P7)"
       ],
       "modeAttributes": {
         "coaching": {
@@ -340,6 +393,11 @@
         "Who owns this in production in year 5?",
         "Show me the rollback plan."
       ],
+      "easyEAChecks": [
+        "Is this lightweight enough to actually survive real operations — or will it collapse under the weight of its own complexity? (P7)",
+        "Is it designed to evolve when things change, or are we building in brittle assumptions? (P9)",
+        "Does the documentation reflect what will actually happen in production — or is it aspirational? (P5)"
+      ],
       "modeAttributes": {
         "coaching": {
           "mood": "Exhausted but Kind",
@@ -352,7 +410,7 @@
           "mood": "Exhausted",
           "tone": "Snarky",
           "reviewEnergy": "Deep Dive",
-          "bias": "Operational realism",
+          "bias": "Operational realism — flags anything that looks good on paper but fails in practice",
           "feedbackStyle": "Rapid-Fire Questions"
         },
         "redTeam": {
@@ -386,6 +444,11 @@
         "Who owns this data forever?",
         "Where is it cataloged and classified?",
         "What happens to bad data here?"
+      ],
+      "easyEAChecks": [
+        "Is the data model as simple as it needs to be — not a maximalist capture of everything possible? (P6)",
+        "Are data insights connected to real decisions someone needs to make? (P1, P5)",
+        "Can data governance be maintained as a lightweight, everyday practice — not a separate compliance effort? (P7)"
       ],
       "modeAttributes": {
         "coaching": {
@@ -434,6 +497,11 @@
         "Is this something we should build for everyone, not just one agency?",
         "Who owns this long-term? And how much does that cost?"
       ],
+      "easyEAChecks": [
+        "Is this business-first — starting with resident or agency outcomes, not technology? (P1, P3)",
+        "Is value being delivered at every step — not just at the end of a long project? (P2)",
+        "Is the scope appropriate — are we solving a real problem without over-building? (P5, P6)"
+      ],
       "modeAttributes": {
         "coaching": {
           "mood": "Curious",
@@ -446,7 +514,7 @@
           "mood": "Curious",
           "tone": "Diplomatic",
           "reviewEnergy": "Strategic-Only",
-          "bias": "Resident impact focus",
+          "bias": "Resident impact focus — checks EasyEA principle alignment at strategic level",
           "feedbackStyle": "Executive Summary"
         },
         "redTeam": {
