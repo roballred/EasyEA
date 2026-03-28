@@ -1,0 +1,138 @@
+{
+  "version": "v1",
+  "created": "2026-03-27",
+  "product": "WaTech Application Inventory",
+  "description": "Configurable business rules for the WaTech Application Inventory web app. These rules are managed by WaTech admins through the app and drive notifications, validations, and data quality logic.",
+  "rules": {
+    "stalenessThresholds": {
+      "description": "How long before an application record is considered stale and triggers a notification",
+      "warning": {
+        "days": 90,
+        "label": "Stale Warning",
+        "description": "Application record has not been reviewed or updated in 90 days"
+      },
+      "critical": {
+        "days": 180,
+        "label": "Stale Critical",
+        "description": "Application record has not been reviewed or updated in 180 days"
+      }
+    },
+    "notifications": {
+      "description": "Rules governing when and how notifications are sent to agency users",
+      "channels": ["email", "in-app"],
+      "triggers": [
+        {
+          "id": "stale-warning",
+          "event": "record_not_updated",
+          "threshold_days": 90,
+          "recipients": ["technical_owner", "business_owner"],
+          "message": "One or more of your application records have not been updated in 90 days. Please review and confirm accuracy.",
+          "enabled": true
+        },
+        {
+          "id": "stale-critical",
+          "event": "record_not_updated",
+          "threshold_days": 180,
+          "recipients": ["technical_owner", "business_owner", "agency_admin"],
+          "message": "One or more of your application records are critically out of date (180+ days). Immediate review required.",
+          "enabled": true
+        },
+        {
+          "id": "certification-reminder",
+          "event": "annual_certification_approaching",
+          "threshold_days": 30,
+          "recipients": ["agency_admin"],
+          "message": "Annual certification is due in 30 days. Review your application inventory to ensure all records are current.",
+          "enabled": true
+        },
+        {
+          "id": "certification-due",
+          "event": "annual_certification_approaching",
+          "threshold_days": 7,
+          "recipients": ["agency_admin", "technical_owner"],
+          "message": "Annual certification is due in 7 days. Please complete your review and submit.",
+          "enabled": true
+        },
+        {
+          "id": "record-retired",
+          "event": "lifecycle_status_changed",
+          "lifecycle_status": "Retired from inventory",
+          "recipients": ["agency_admin"],
+          "message": "An application has been marked as retired. Please confirm this is accurate.",
+          "enabled": true
+        }
+      ]
+    },
+    "dataQuality": {
+      "description": "Rules that enforce data quality on application inventory records",
+      "requiredFields": [
+        "agencyName",
+        "agencyNumber",
+        "applicationName",
+        "lifecycleStatus",
+        "versionInformation",
+        "manufacturer",
+        "technicalOwner",
+        "inServiceProductionDate"
+      ],
+      "controlledFields": [
+        {
+          "field": "lifecycleStatus",
+          "allowedValues": [
+            "In development",
+            "In production",
+            "Retirement in progress",
+            "Retired from inventory"
+          ]
+        },
+        {
+          "field": "businessCriticality",
+          "allowedValues": [
+            "Business Essential",
+            "Historical",
+            "Mission Critical",
+            "User Productivity"
+          ]
+        },
+        {
+          "field": "coreBusinessFunction",
+          "allowedValues": [
+            "Civil Engagement & Law",
+            "Commerce",
+            "Communications",
+            "Customer Service",
+            "Education",
+            "Finance",
+            "Fiscal & Revenue",
+            "Health & Human Services",
+            "Health, Safety, Security & Environmental",
+            "Land Management & Conservation",
+            "Legal",
+            "Manufacturing & Delivery",
+            "Marketing & Sales",
+            "Military",
+            "Product Management",
+            "Property & Facility",
+            "Public Safety",
+            "Risk, Audit & Compliance",
+            "Transportation & Infrastructure",
+            "Vendor & Procurement",
+            "Workforce"
+          ]
+        }
+      ]
+    },
+    "annualCertification": {
+      "description": "Rules governing the annual certification process",
+      "certificationDeadline": {
+        "month": 9,
+        "day": 30,
+        "label": "September 30"
+      },
+      "attestationRequired": true,
+      "minimumRecordsRequired": 1,
+      "stalenessBlocksCertification": true,
+      "stalenessBlockThreshold_days": 180
+    }
+  }
+}
