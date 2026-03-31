@@ -16,7 +16,15 @@ Do not skip ARB for significant decisions. A significant decision is one that:
 - Affects multiple teams or personas
 - Has security, privacy, or compliance implications
 
-For smaller, low-stakes decisions, a single persona in standard mode is sufficient.
+**How many personas to activate:**
+
+| Decision size | Personas to activate |
+|--------------|---------------------|
+| Small, low-risk, easily reversible | 1–2 |
+| Standard — moderate investment, affects multiple people | 3–5 |
+| Significant — major investment, hard to undo, broad impact | 6–10 |
+
+Always include **Lisa Rodriguez** (Business Architect). Every decision needs a business value check.
 
 ---
 
