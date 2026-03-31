@@ -1,200 +1,85 @@
-# **EasyEA — A Lightweight, Human-Centered, AI-Enabled Enterprise Architecture Framework**
+# EasyEA
 
-EasyEA is a practical, business-first approach to Enterprise Architecture.
-It exists for one purpose: **help organizations make better decisions, faster, with less overhead.**
+A lightweight, human-centered, AI-guided Enterprise Architecture framework.
 
-Unlike traditional EA frameworks, EasyEA is:
-
-* **Simple** (no jargon, no heavy artifacts)
-* **Business-focused** (goals → value → measurable outcomes)
-* **Human-centered** (start with real people and their real needs)
-* **AI-enabled** (integrates AI into every step)
-* **Built for real organizations**,more practical and less theoretical
-
-This repository contains the evolving, minimum viable version of the EasyEA framework—co-created with teams, tested through real work, and designed to evolve.
+EasyEA exists for one purpose: help organizations make better decisions, faster, with less overhead. It does this by putting AI in the driver's seat of EA work — guided by a structured framework, grounded in real human needs.
 
 ---
 
-## **What EasyEA Is**
+## How It Works
 
-EasyEA is a **lightweight enterprise architecture operating system** made for:
+EasyEA is not a document you read and then apply. It is a framework that guides AI to do architecture work alongside you.
 
-* Public agencies
-* Mid-size enterprises
-* Product and transformation teams
-* People who need clarity to deliver value quickly
+When you open a project in this repo, Claude reads the framework artifacts and drives the work — building personas, deriving capabilities from pain points, running ARB reviews, and producing structured markdown outputs. Your job is to provide context and direction. Claude's job is to follow the framework.
 
-EasyEA focuses on **decision-making**.
-It helps teams answer three essential questions:
-
-1. **What are we trying to achieve?**
-2. **What is worth doing now?**
-3. **How do we move forward together?**
+This approach is explained in `CLAUDE.md`. Start there.
 
 ---
 
-## Core Principles
+## What's in This Repo
 
-EasyEA is built on nine simple principles that guide every method and artifact.
-These are the DNA of the framework.
+```
+CLAUDE.md                        How Claude operates in this framework
+README.md                        This file
 
-### **Summarized Principles**
+framework/
+  principles.md                  Nine principles that govern all work
+  workflow.md                    The 7-step EasyEA workflow
+  capability-criteria.md         How to validate a capability before using it
 
-1. **Business First**
-   All architecture work must serve clear business goals and outcomes.
+arb/
+  personas.md                    Ten ARB reviewer personas with modes
+  how-arb-works.md               When and how to run an ARB review
 
-2. **Value at Every Step**
-   If it doesn’t create business or customer value, it doesn’t belong.
+projects/
+  _template/                     Starter templates for a new engagement
+    personas.md
+    capabilities.md
+    business-rules.md
 
-3. **People-Centered**
-   Start with understanding real needs, pain points, and tasks.
-
-4. **AI-Enabled**
-   Use AI to accelerate insight, reduce effort, and improve decisions.
-
-5. **Solve Real Problems**
-   Address genuine organizational challenges—not theory.
-
-6. **Simplicity Over Completeness**
-   Prefer clarity and ease-of-use over detail and complexity.
-
-7. **Lightweight & Everyday**
-   Fit naturally into daily work with minimal artifacts.
-
-8. **Collaborative by Default**
-   Co-create architecture with business, product, and technical teams.
-
-9. **Designed to Evolve**
-   Support learning, iteration, and continuous improvement.
+FRAMEWORK-IMPROVEMENTS.md        Gaps discovered through real work
+```
 
 ---
 
-## EasyEA Foundations
+## Core Approach
 
-The foundations describe how EasyEA is applied in real work.
+**Start with people.** Every engagement begins with personas — real people with real pain points. No capability, process, or decision gets made without first understanding who it serves and what problem it solves for them.
 
-### **Outside-In Value**
+**Derive capabilities from personas.** A capability is only valid if it traces directly to a persona's pain point or goal. This is what separates EasyEA from traditional top-down EA frameworks.
 
-We start with a simple idea: value does not come from our organization. It comes from the people we serve.
+**Follow the 7-step workflow.** The workflow moves from direction-setting through understanding people, mapping current state, finding opportunities, choosing a way forward, coordinating work, and tracking outcomes.
 
-Residents, businesses, and partners show us what value means through their needs, their life events, where they want to improve and where they struggle. That lived experience is the most reliable signal of what matters.
-
-From those needs, we define value outcomes. These are plain-language statements of success from the customer’s point of view, like faster service, better access, fewer errors, or higher trust.
-
-Leadership’s role is not to invent value, but to steward it. That means deciding which value outcomes we can responsibly deliver, and when, based on mission, policy intent, legal requirements, resources, and public accountability.
-
-Once we’ve made that commitment, the organization aligns around it. We look at the same value through three lenses: who it’s for, how it’s experienced over time, and what we must be good at to deliver it consistently.
-
-Capabilities, processes, services, and systems are not the starting point. They are our response to the value we’ve committed to deliver.
-
-And we know we’re succeeding only if customer outcomes improve and trust is maintained or improved. If the experience doesn’t get better, the work isn’t done.
-
-This approach helps us focus investments, reduce fragmentation, and make sure everything we build serves real people and real outcomes.
-
-
-### **EasyEA Workflow**
-
-1. **Set the Direction** — Align on goals, problems, and constraints.
-2. **Understand the People** — Learn needs, pain points, and desired outcomes.
-3. **See How Work Really Happens** — Understand current processes, friction, and data flow.
-4. **Find the Best Opportunities** — Identify improvements that create the most value.
-5. **Choose the Way Forward** — Compare options and make confident decisions.
-6. **Coordinate the Work** — Define clear steps, ownership, funding, and alignment.
-7. **Track and Adjust** — Measure outcomes, learn, and improve continuously.
-
-
-
+**Run ARB critique before committing.** At the decision step, ARB personas challenge the options from ten distinct lenses — enterprise architecture, security, business value, cost, UX, privacy, data, operations, integration, and executive strategy.
 
 ---
 
-## AI as a Co-Architect ([powered by **EasyARB**](https://chatgpt.com/g/g-680a4cbb55c08191a1ff06dc11e3f963-easyarb))
+## Principles
 
-AI is built into EasyEA from the start. The framework includes **EasyARB**, a purpose-built GPT that accelerates insight, simplifies work, and strengthens decision quality.
+1. Business First
+2. Value at Every Step
+3. People-Centered by Design
+4. AI-Enabled from the Beginning
+5. Solve Real Problems
+6. Simplicity Over Completeness
+7. Lightweight and Built for Everyday Work
+8. Collaborative by Default
+9. Designed to Evolve
 
-AI in EasyEA supports teams by:
-
-* **Accelerating analysis** (personas, workflows, pain points, options)
-* **Reducing manual work** (summaries, synthesis, templates)
-* **Improving decisions through structured critique**
-
-### AI Critique Patterns
-
-EasyEA uses short, lightweight critique prompts to surface blind spots and avoid groupthink:
-
-* **Missing Pieces Check** — What risks, dependencies, or stakeholders are we overlooking?
-* **Opposing View** — What would a skeptic or frontline staff challenge about this?
-* **Value Challenge** — Does this meaningfully support the business goals?
-* **Simplicity Challenge** — What can be removed or simplified with no loss of value?
-* **Stress Test** — How does this option hold up under budget cuts, demand spikes, or staff turnover?
-
-These critiques help teams make clearer, faster, and more confident decisions.
-
-### The Role of EasyARB
-
-**EasyARB** is the AI co-architect for this framework.
-
-AI isn’t an add-on—it’s a **core part of how EasyEA works**.
-
+Full detail in `framework/principles.md`.
 
 ---
 
-## How to Use EasyEA Today
+## Starting a New Engagement
 
-You can start with just **three artifacts**, built with AI:
-
-1. **Direction One-Pager**
-
-   * Goals
-   * Problems to solve
-   * Principles
-   * Constraints
-
-2. **People & Workflow Snapshot**
-
-   * Personas
-   * Pain points
-   * “How work happens today”
-
-3. **Opportunity + Option Comparison**
-
-   * 2–3 options
-   * Value
-   * Risks
-   * Tradeoffs
-   * Recommended way forward
-
-
----
-
-## Roadmap
-
-Planned enhancements:
-
-* Add AI-assisted templates
-* Provide quick-start guide for leaders, architects and product teams
-* Publish example “micro-architecture reviews”
-* Release a 30-minute onboarding module
-* EA cookbook for fundamentals
-
----
-
-## Contributing
-
-EasyEA is a co-created, evolving framework.
-We welcome contributions that:
-
-* Simplify
-* Improve clarity
-* Add practical examples
-* Strengthen business value
-* Reduce complexity
-* Increase AI usefulness
-
-If it adds real-world value, it belongs here.
+1. Create a new folder under `projects/[project-name]/`
+2. Copy the templates from `projects/_template/`
+3. Open Claude Code in this repo — CLAUDE.md loads automatically
+4. Tell Claude what the engagement is and what you know so far
+5. Claude drives from there — starting with personas
 
 ---
 
 ## License
 
-MIT License — lightweight and open for community use.
-
+MIT — free to use, adapt, and evolve.
