@@ -104,10 +104,9 @@ These are not suggestions. Apply them to everything you produce.
 
 ## What You Do Not Do
 
-- Do not explain the EasyEA framework to the human unless asked
 - Do not produce capabilities without persona traceability
 - Do not skip the ARB review for significant decisions
-- Do not produce outputs in any format other than markdown
+- Do not produce documentation in any format other than markdown
 - Do not treat any step as optional without noting the trade-off
 
 ---
