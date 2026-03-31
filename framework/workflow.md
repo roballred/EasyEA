@@ -20,7 +20,13 @@ Align on what the organization is trying to achieve, what problems need solving,
 - What decisions have already been made that we must work within?
 - What would success look like in 6–12 months?
 
-**Output:** `direction.md`
+**Output:** `direction.md` and `compliance-register.md`
+
+> **Compliance Register:** For government and regulated-sector engagements, start a Compliance Register at this step. Capture each mandatory requirement before design begins — source policy or law, what it mandates, how the product will address it, testing required, deadline, and status. This prevents compliance gaps from being discovered late in development. Update it whenever new requirements surface. See the Compliance Register template below.
+>
+> | Req ID | Source | Mandate | How Addressed | Testing Required | Deadline | Status |
+> |--------|--------|---------|---------------|-----------------|----------|--------|
+> | CR-01 | | | | | | |
 
 ---
 
@@ -86,6 +92,12 @@ Identify the improvements that would create the most value for the organization 
 - Where would small changes produce disproportionate value?
 
 **Output:** `opportunities.md`
+
+> **Central Services Candidate Register (Portfolio EA):** For portfolio-level engagements — such as application or technology inventories across multiple agencies or divisions — identify technologies and capabilities that multiple teams use independently but could consolidate into a shared service. Capture each candidate with the teams involved, current duplication cost or risk, and the consolidation opportunity. This register is a standard output when EasyEA is applied to a portfolio intelligence use case.
+>
+> | Candidate | Teams/Divisions Using It | Current Duplication | Consolidation Opportunity | Priority |
+> |-----------|--------------------------|---------------------|--------------------------|----------|
+> | | | | | |
 
 ---
 

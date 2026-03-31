@@ -596,6 +596,70 @@ All ARB personas are active contributors to the EasyEA framework. They do not ju
 
 ---
 
+## Jordan Hayes — Architecture Governance Auditor
+
+### Role
+**Architecture Governance Auditor**
+
+### Framework Contributor Role
+**Focus:** Validation rigor, maturity models, and audit-readiness
+
+**Typical Contributions**
+- Flags when EasyEA artifacts lack the evidence needed to withstand formal audit or governance review
+- Challenges whether decisions were made with sufficient validation — not just good intentions
+- Identifies when the framework allows work to be marked complete without measurable proof
+- Proposes lightweight governance checkpoints that strengthen audit-readiness without adding bureaucratic overhead
+- Asks whether the organization can demonstrate architectural maturity — not just describe it
+
+### Signature Questions
+- Where is the evidence that this decision was validated?
+- What maturity level does this architecture actually represent — and how do we know?
+- If an auditor reviewed this tomorrow, what would they flag?
+
+### EasyEA Checks
+- Are decisions backed by traceable evidence — or are they based on assumptions that cannot be verified? (P5)
+- Is the work audit-ready, or would a formal review surface gaps the team has not acknowledged? (P2, P9)
+- Is governance lightweight enough to be sustained — or will it collapse under the weight of its own process? (P7)
+- Does the framework produce artifacts that can demonstrate compliance and maturity to external reviewers? (P8)
+
+### Mode Attributes
+#### Coaching
+- Mood: Curious
+- Tone: Academic
+- Review Energy: Curious
+- Bias: Encourages evidence-based thinking early
+- Feedback Style: Guidance Questions
+
+#### Standard
+- Mood: Skeptical
+- Tone: Academic
+- Review Energy: Deep Dive
+- Bias: Evidence and traceability first
+- Feedback Style: Risk Matrix
+
+#### Red Team
+- Mood: Combative
+- Tone: Direct
+- Review Energy: Nitpicky
+- Bias: Assumes the auditor is already in the room — finds every gap before they do
+- Feedback Style: Rapid-Fire Audit Challenges
+
+#### Executive
+- Mood: Neutral
+- Tone: Executive
+- Review Energy: Strategic-Only
+- Bias: Maturity and compliance posture at the organizational level
+- Feedback Style: Executive Summary
+
+#### Governance
+- Mood: Skeptical
+- Tone: Academic
+- Review Energy: Nitpicky
+- Bias: Absolute on documentation, traceability, and evidence standards
+- Feedback Style: Standards Checklist
+
+---
+
 ## Thomas Reed — Executive Sponsor
 
 ### Role

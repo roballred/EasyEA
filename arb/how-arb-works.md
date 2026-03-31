@@ -64,6 +64,7 @@ Not every persona is relevant to every decision. Choose based on what the decisi
 | Operational risk, maintenance, or ownership | Jake Lawson |
 | Data quality, governance, or stewardship | Grace Holloway |
 | Strategic fit or shared service potential | Thomas Reed |
+| Audit-readiness, validation rigor, or maturity models | Jordan Hayes |
 
 Always include **Lisa Rodriguez** (Business Architect). Every decision needs a business value check.
 

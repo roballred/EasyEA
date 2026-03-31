@@ -64,6 +64,28 @@ This is the EasyEA output test. A capability that is too vague or too broad cann
 
 ---
 
+### 7. Adoption Risk (when applicable)
+
+**Guiding question:** Is successful delivery of this capability dependent on a change in how target users behave?
+
+Some capabilities only deliver value if the people they serve actually use them. If a capability depends on adoption to succeed, that risk must be made explicit — not buried in an implementation assumption.
+
+A capability is **adoption-critical** if:
+- The entire value chain fails if target users do not engage with it
+- It requires users to change established habits or workflows
+- Resistance or friction patterns are already visible or predictable
+
+When a capability is adoption-critical, the capability definition must include:
+
+- **Adoption risk:** Why adoption is at risk — the friction or resistance pattern
+- **Friction reduction:** What the product does to reduce that friction
+- **Adoption success criterion:** A measurable indicator that adoption has succeeded
+- **Fallback:** What happens if adoption fails — and whether the product still delivers value
+
+> **Example:** A capability that allows agency staff to self-update their application records is adoption-critical if staff have historically relied on a central team to make changes for them. The capability definition must address why staff would change this habit, what removes the friction, how success is measured, and what the fallback is if adoption stalls.
+
+---
+
 ## Capability Validation Checklist
 
 Before adding a capability to `capabilities.md`, confirm:
@@ -74,3 +96,18 @@ Before adding a capability to `capabilities.md`, confirm:
 - [ ] It traces to at least one persona's pain point or goal
 - [ ] It has at least one measurable success indicator
 - [ ] It is specific enough for AI to design or build from
+- [ ] If adoption-critical: adoption risk, friction reduction, success criterion, and fallback are defined
+
+---
+
+## Artifact Consistency Checklist
+
+Complete this checklist whenever a capability is added or changed. Inconsistency across artifacts — where a capability exists in one place but not others — creates gaps that are only caught during review, not during design.
+
+- [ ] **Personas updated** — capability listed under the affected personas in `personas.md`
+- [ ] **UX flow updated** — screens added or modified for the new or changed capability in the UX flow artifact
+- [ ] **Data model updated** — schema supports the new or changed capability
+- [ ] **Business rules updated** — if the capability has configurable behavior, business rules reflect it
+- [ ] **Compliance register updated** — if the capability has compliance implications, `compliance-register.md` is updated
+
+> This checklist must be completed in the same working session as the capability change. Do not defer artifact updates to a later session — inconsistency across artifacts is harder to catch and fix after the session ends.
