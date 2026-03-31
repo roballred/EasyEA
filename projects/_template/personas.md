@@ -48,7 +48,9 @@ Every capability, design decision, and business rule must trace back to at least
 
 ## The Value Chain
 
-[Once all personas are defined, describe how they connect. Each persona's success should depend on or enable another's. This makes the dependencies visible.]
+> **Complete this section last** — after all personas are defined and capabilities are drafted. The value chain describes how the personas depend on each other. It cannot be written until you know who all the personas are and what capabilities serve them.
+
+[Describe how the personas connect. Each persona's success should depend on or enable another's. This makes the dependencies visible.]
 
 ```
 [First persona] does X

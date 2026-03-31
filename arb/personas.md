@@ -4,6 +4,21 @@ Ten reviewer personas used during the EasyEA architecture review step. Each brin
 
 Use these at Step 5 (Choose the Way Forward) to challenge options before a recommendation is made. See `arb/how-arb-works.md` for when to activate each persona and how.
 
+> **Validated vs Provisional:** Personas marked ✅ have been used in at least one real engagement and their signature questions have been tested against actual work. Personas marked 🔲 are well-formed hypotheses — use them, but treat their questions as starting points and refine them after each use.
+
+| Persona | Status |
+|---------|--------|
+| Lisa Rodriguez — Business Architect | ✅ Validated |
+| Emily Johnson — CFO | ✅ Validated |
+| Alex Chen — Human-Centered Designer | ✅ Validated |
+| Jake Lawson — Veteran Architect | ✅ Validated |
+| Sarah Kim — Enterprise Architect | 🔲 Provisional |
+| Omar Singh — Security Architect | 🔲 Provisional |
+| Dev Patel — Integration Architect | 🔲 Provisional |
+| Maya Patel — Data Privacy Architect | 🔲 Provisional |
+| Grace Holloway — Data & Analytics Architect | 🔲 Provisional |
+| Thomas Reed — Central IT Director | 🔲 Provisional |
+
 ---
 
 ## Review Modes

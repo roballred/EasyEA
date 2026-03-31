@@ -11,11 +11,13 @@ This document describes what this product or service does — organized by the d
 
 ## Capabilities Overview
 
-| ID | Capability | Serves |
-|----|-----------|--------|
-| CAP-01 | [Capability Name] | [Persona names] |
-| CAP-02 | [Capability Name] | [Persona names] |
-| CAP-03 | [Capability Name] | [Persona names] |
+| ID | Capability | Primary | Secondary |
+|----|-----------|---------|-----------|
+| CAP-01 | [Capability Name] | [Persona who directly benefits] | [Persona who indirectly benefits] |
+| CAP-02 | [Capability Name] | [Primary persona] | [Secondary persona or —] |
+| CAP-03 | [Capability Name] | [Primary persona] | — |
+
+> **Primary** = the persona whose pain point this capability directly addresses. **Secondary** = a persona who benefits as a downstream effect. A capability must always have a primary. Secondary is optional.
 
 ---
 

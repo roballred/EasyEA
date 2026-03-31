@@ -55,12 +55,16 @@ Create a clear picture of how the organization gets things done today. Understan
 - Friction points — where things slow down, break, or require workarounds
 - Data flow — what information is needed, where it comes from, where it gets stuck
 - Handoff gaps — where ownership is unclear or coordination fails
+- Inherited standards — existing policies, data models, or controlled vocabularies that must be respected
 
 **Questions to answer:**
 - How does this work get done today, step by step?
 - Where do people waste the most time or effort?
 - What workarounds have people invented because the official process doesn't work?
 - Where does data quality, privacy, or access create problems?
+- Are there existing policies, standards, or data models that pre-define how this work must be structured?
+
+> **Inherit Existing Standards:** Before designing anything new, check whether existing policy, regulation, or organizational standards already define the data model, controlled vocabularies, or process rules. If they do, inherit them — do not reinvent them. Document what was inherited and where it came from.
 
 **Output:** `current-state.md`
 
