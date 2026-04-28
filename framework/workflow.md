@@ -2,6 +2,19 @@
 
 This is the backbone of every EasyEA engagement. Work moves through these steps in order. Not every engagement completes all seven — but you always know where you are and what comes next.
 
+EasyEA is human-led. AI may draft artifacts, simulate critique, and surface options, but humans confirm decisions and decide when evidence is strong enough to proceed.
+
+Use these evidence labels throughout the workflow:
+
+| Label | Use when... |
+|-------|-------------|
+| **Human-confirmed** | The human explicitly confirmed the statement during the engagement |
+| **Evidence-backed** | A real source supports the statement — user research, policy, data, artifact, observation, or decision record |
+| **Simulated** | The statement comes from an AI persona, ARB critique, or synthetic scenario |
+| **Assumption** | The statement is plausible but not yet confirmed |
+
+Simulated output is useful for probing design questions. It is not validation.
+
 ---
 
 ## Step 1 — Set the Direction
@@ -21,6 +34,8 @@ Align on what the organization is trying to achieve, what problems need solving,
 - What would success look like in 6–12 months?
 
 **Output:** `direction.md` and `compliance-register.md`
+
+**Decision gate:** The human confirms the goals, problems, constraints, and out-of-scope boundaries before personas or capabilities are allowed to drive downstream decisions.
 
 > **Compliance Register:** For government and regulated-sector engagements, start a Compliance Register at this step. Capture each mandatory requirement before design begins — source policy or law, what it mandates, how the product will address it, testing required, deadline, and status. This prevents compliance gaps from being discovered late in development. Update it whenever new requirements surface. See the Compliance Register template below.
 >
@@ -50,6 +65,8 @@ Learn what the people who use or are affected by this work actually need — whe
 
 > Every capability, design decision, and business rule must trace back to at least one persona's pain point or goal. Personas built here drive everything that follows.
 
+**Decision gate:** The human confirms which personas may drive the next step. Any persona still marked **Assumption** may be used to ask better questions, but not as the sole basis for implementation-ready capabilities.
+
 ---
 
 ## Step 3 — See How Work Really Happens
@@ -74,6 +91,8 @@ Create a clear picture of how the organization gets things done today. Understan
 
 **Output:** `current-state.md`
 
+**Decision gate:** The human confirms that the current-state description is accurate enough for opportunity analysis. Unverified process steps, data flows, or standards must remain labeled **Assumption** until confirmed.
+
 ---
 
 ## Step 4 — Find the Best Opportunities
@@ -92,6 +111,8 @@ Identify the improvements that would create the most value for the organization 
 - Where would small changes produce disproportionate value?
 
 **Output:** `opportunities.md`
+
+**Decision gate:** The human chooses which opportunities are worth option development. AI-ranked opportunities are recommendations, not decisions.
 
 > **Central Services Candidate Register (Portfolio EA):** For portfolio-level engagements — such as application or technology inventories across multiple agencies or divisions — identify technologies and capabilities that multiple teams use independently but could consolidate into a shared service. Capture each candidate with the teams involved, current duplication cost or risk, and the consolidation opportunity. This register is a standard output when EasyEA is applied to a portfolio intelligence use case.
 >
@@ -119,7 +140,11 @@ Compare a small set of options, weigh trade-offs and risks, and select the appro
 
 **Run ARB critique here.** See `arb/how-arb-works.md` for which personas to activate and how.
 
+ARB findings must be labeled **Simulated**. They can raise confidence, reveal risk, and shape questions, but they do not validate the decision.
+
 **Output:** `options.md`
+
+**Decision gate:** The human selects the way forward, defers the decision, or asks for more evidence. Do not treat a simulated ARB recommendation as approval.
 
 ---
 
@@ -141,6 +166,14 @@ Turn the decision into clear steps, responsibilities, funding alignment, and che
 
 **Output:** `coordination.md`
 
+**Implementation readiness gate:** Before implementation issues, PR-ready requirements, or coding work begin, confirm:
+
+- The human selected the option or explicitly approved the implementation direction
+- Remaining assumptions are resolved or accepted as named risks
+- Simulated ARB findings are labeled and translated into concrete actions or open questions
+- Capabilities trace to human-confirmed or evidence-backed persona needs
+- Ownership, testing, and success measures are clear enough to build against
+
 ---
 
 ## Step 7 — Track and Adjust
@@ -160,3 +193,5 @@ Monitor progress, look at what is working or not working, and adjust direction b
 - What should EasyEA do differently next time?
 
 **Output:** `success-metrics.md` and updates to `FRAMEWORK-IMPROVEMENTS.md`
+
+**Learning gate:** Update any assumptions that real outcomes disproved. If simulated findings were wrong or incomplete, capture the gap in `FRAMEWORK-IMPROVEMENTS.md` so the method improves.

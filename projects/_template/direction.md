@@ -3,6 +3,7 @@
 **Version:** v1
 **Last Updated:** [Date]
 **EasyEA Step:** 1 — Set the Direction
+**Decision Status:** Draft / Human-confirmed
 
 This document captures what the organization is trying to achieve, what problems need solving, and the constraints that shape the work. Everyone involved in this engagement should be able to read this and understand why the work exists.
 
@@ -57,6 +58,31 @@ In plain language, what would be true in 6–12 months if this engagement succee
 - [Success statement from the user/customer perspective]
 - [Success statement]
 - [Success statement]
+
+---
+
+## Evidence and Assumptions
+
+Track what is known, what is assumed, and what must be confirmed before moving forward.
+
+| Statement | Label | Source / Confirmation Needed |
+|-----------|-------|------------------------------|
+| [Goal, constraint, problem, or success statement] | Human-confirmed / Evidence-backed / Assumption | [Who confirmed it, source artifact, or what needs validation] |
+
+---
+
+## Human Decision Gate
+
+Before moving to Step 2, the human confirms:
+
+- [ ] Business goals are accurate enough to guide the engagement
+- [ ] Problems to solve are the right problems
+- [ ] Constraints and out-of-scope items are explicit
+- [ ] Any assumptions that may affect scope or risk are named
+
+**Gate decision:** Proceed / Revise / Pause
+**Decision owner:** [Name or role]
+**Date:** [Date]
 
 ---
 

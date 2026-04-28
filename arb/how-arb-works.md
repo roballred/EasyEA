@@ -1,8 +1,10 @@
 # How ARB Works
 
-The Architecture Review Board (ARB) is not a meeting. It is a structured critique step built into the EasyEA workflow. At Step 5 (Choose the Way Forward), you activate a set of ARB personas to challenge the options before a recommendation is made.
+The Architecture Review Board (ARB) is not a meeting. It is a structured simulated critique step built into the EasyEA workflow. At Step 5 (Choose the Way Forward), you activate a set of ARB personas to challenge the options before a recommendation is made.
 
-The goal is to surface blind spots, expose weak assumptions, and pressure-test decisions before the organization commits to them.
+The goal is to surface blind spots, expose weak assumptions, and pressure-test decisions before the organization commits to them. ARB output is decision support, not validation.
+
+Every ARB finding must be labeled **Simulated** unless it cites a real evidence source outside the persona critique.
 
 ---
 
@@ -42,7 +44,7 @@ In **Discovery Mode**, personas do not critique a proposal. They contribute guid
 | Long-term ownership before committing | Jake Lawson — who would own this in three years? |
 | Cost feasibility before scoping | Emily Johnson — is there a realistic budget for this? |
 
-Discovery Mode findings feed directly into `direction.md` and `personas.md`. They are not a review — they are a structured way to ask better questions at the start.
+Discovery Mode findings feed directly into `direction.md` and `personas.md`. They are not a review and they are not evidence — they are a structured way to ask better questions at the start.
 
 ---
 
@@ -106,6 +108,24 @@ For each persona, record:
 
 Incorporate findings into `options.md` before writing the recommendation.
 
+Keep findings small and decision-oriented. A useful ARB finding should fit in one short paragraph or table row and answer:
+
+- What decision does this affect?
+- What is the risk or opportunity?
+- What evidence level supports it?
+- What action is needed next?
+
+Use this evidence scale:
+
+| Evidence Level | Meaning |
+|----------------|---------|
+| None | The finding is a simulated concern only |
+| Assumption | Plausible, but not confirmed |
+| Human-confirmed | Confirmed by the human during the engagement |
+| Evidence-backed | Supported by a cited artifact, policy, research finding, data point, or observed behavior |
+
+Do not convert ARB confidence into implementation readiness. Readiness requires a human decision.
+
 ---
 
 ## Adapting ARB for Smaller or Less-Formal Organizations
@@ -138,6 +158,6 @@ These lightweight prompts can be used in addition to persona signature questions
 
 ## What Good ARB Output Looks Like
 
-A completed ARB review should produce clear findings for each activated persona — what they challenged, what was confirmed, and what needs to change. It is not a pass/fail gate. It is a structured way to make decisions with more confidence.
+A completed ARB review should produce clear findings for each activated persona — what they challenged, what was confirmed, and what needs to change. It is not a pass/fail gate, and it is not validation. It is a structured way to make decisions with more confidence.
 
 If a persona raises a challenge that cannot be answered, that is valuable information. It means the option is not ready for recommendation, or the recommendation needs to acknowledge the gap explicitly.

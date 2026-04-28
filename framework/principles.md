@@ -1,6 +1,6 @@
 # EasyEA Principles
 
-Nine principles that govern every EasyEA engagement. These are not guidelines — they are the criteria by which all work is evaluated.
+Ten principles that govern every EasyEA engagement. These are not guidelines — they are the criteria by which all work is evaluated.
 
 Apply these to every artifact, every decision, and every recommendation.
 
@@ -38,7 +38,15 @@ AI is not an add-on. It is built into how EasyEA works. Use AI to accelerate ins
 
 ---
 
-## 5. Solve Real Problems
+## 5. Human in the Lead
+
+AI may structure the work, draft artifacts, simulate review perspectives, and surface options. Humans make the decisions. No EasyEA engagement may move from discovery to recommendation, or from recommendation to implementation, without explicit human confirmation of the decision being made and the evidence supporting it.
+
+> **Test:** What decision is the human making right now? If the answer is unclear, stop and ask. If AI-generated or simulated material is influencing the decision, label it before proceeding.
+
+---
+
+## 6. Solve Real Problems
 
 Every method, artifact, and recommendation must address genuine organizational challenges — alignment gaps, delivery friction, legacy complexity, customer experience failures, siloed teams. No academic models, no theoretical constructs.
 
@@ -46,7 +54,7 @@ Every method, artifact, and recommendation must address genuine organizational c
 
 ---
 
-## 6. Simplicity Over Completeness
+## 7. Simplicity Over Completeness
 
 EasyEA prioritizes clarity, usability, and speed. If something cannot be explained quickly or used easily, simplify it or remove it. A clear, incomplete artifact is more useful than a comprehensive, unreadable one.
 
@@ -54,7 +62,7 @@ EasyEA prioritizes clarity, usability, and speed. If something cannot be explain
 
 ---
 
-## 7. Lightweight and Built for Everyday Work
+## 8. Lightweight and Built for Everyday Work
 
 The framework must fit naturally into business, product, and delivery workflows. Minimal artifacts. Lean governance. Just enough structure to support good decisions — nothing more.
 
@@ -62,7 +70,7 @@ The framework must fit naturally into business, product, and delivery workflows.
 
 ---
 
-## 8. Collaborative by Default
+## 9. Collaborative by Default
 
 Architecture is created with business, product, and technology teams — not delivered to them. The framework supports shared understanding, joint decision-making, and co-creation.
 
@@ -70,7 +78,7 @@ Architecture is created with business, product, and technology teams — not del
 
 ---
 
-## 9. Designed to Evolve
+## 10. Designed to Evolve
 
 EasyEA is a continuous, learning-focused framework. It supports experimentation, feedback loops, and incremental improvement. When real work reveals gaps, log them. When the framework is wrong, change it.
 
