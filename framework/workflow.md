@@ -174,6 +174,10 @@ Turn the decision into clear steps, responsibilities, funding alignment, and che
 - Capabilities trace to human-confirmed or evidence-backed persona needs
 - Ownership, testing, and success measures are clear enough to build against
 
+**Run SDLC persona review here when implementation work is about to begin.** See `sdlc/how-sdlc-works.md` for which personas to activate and how.
+
+SDLC findings must be labeled **Simulated**. They can reveal issue-shaping, testing, deployment, support, documentation, or release risks, but they do not approve implementation.
+
 ---
 
 ## Step 7 — Track and Adjust

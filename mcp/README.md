@@ -70,6 +70,8 @@ For this checkout, the command is:
 - `easyea://framework/capability-criteria`
 - `easyea://arb/how-it-works`
 - `easyea://arb/personas`
+- `easyea://sdlc/how-it-works`
+- `easyea://sdlc/personas`
 - `easyea://templates/direction`
 - `easyea://templates/personas`
 - `easyea://templates/capabilities`
@@ -84,6 +86,7 @@ For this checkout, the command is:
 - `derive-capabilities`
 - `run-arb-simulation`
 - `check-implementation-readiness`
+- `run-sdlc-review`
 
 ---
 
@@ -93,3 +96,4 @@ For this checkout, the command is:
 - `validate_capability`
 - `run_readiness_gate`
 - `recommend_arb_personas`
+- `recommend_sdlc_personas`

@@ -64,6 +64,20 @@ export const artifacts: EasyEaArtifact[] = [
     path: "arb/personas.md"
   },
   {
+    id: "sdlc-how-it-works",
+    uri: "easyea://sdlc/how-it-works",
+    title: "How SDLC Personas Work",
+    description: "Guidance for simulated SDLC persona review in EasyEA.",
+    path: "sdlc/how-sdlc-works.md"
+  },
+  {
+    id: "sdlc-personas",
+    uri: "easyea://sdlc/personas",
+    title: "SDLC Personas",
+    description: "Delivery personas used for simulated implementation-readiness critique.",
+    path: "sdlc/personas.md"
+  },
+  {
     id: "template-direction",
     uri: "easyea://templates/direction",
     title: "Direction Template",

@@ -76,3 +76,12 @@ Each entry includes the context in which it was discovered, a recommended change
 **Discovered during:** GovEA instance-admin boundary analysis and follow-on EasyEA methodology review
 **Context:** EasyEA successfully structures AI-enabled development through personas, capabilities, issues, and PRs. However, the framework did not consistently distinguish human decisions, simulated critique, validated evidence, and implementation readiness. This creates a risk that AI-generated assumptions or simulated ARB findings quietly drive implementation as if they were validated facts.
 **Recommended change:** Make "Human in the Lead" an explicit principle and workflow directive. Add evidence labels for human-confirmed, evidence-backed, simulated, and assumption-based statements. Add decision gates between discovery, persona definition, opportunity selection, option recommendation, coordination, and implementation readiness. Require simulated outputs to stay small, decision-oriented, and tied to evidence levels.
+
+---
+
+### FI-09 — SDLC Personas for Implementation Readiness
+**Issue:** [#41](https://github.com/roballred/EasyEA/issues/41)
+**Status:** Drafted
+**Discovered during:** EasyEA methodology extension after adding human-led gates and MCP server support
+**Context:** EasyEA has strong ARB personas for architecture decision critique, but no equivalent delivery personas for the transition from capability definition into issues, PRs, release readiness, support, and learning. This leaves a gap between "we chose the right direction" and "this is ready to build and ship."
+**Recommended change:** Add SDLC personas and a lightweight SDLC review method. Use them after Step 6 and around issue shaping, PR readiness, release readiness, and learning review. Keep outputs simulated, concise, evidence-labeled, and tied to concrete delivery actions.

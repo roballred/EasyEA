@@ -75,8 +75,12 @@ framework/
   capability-criteria.md           How to validate a capability — including AI-actionability
 
 arb/
-  personas.md                      Ten ARB reviewer personas with modes
+  personas.md                      ARB reviewer personas with modes
   how-arb-works.md                 When and how to run an ARB review
+
+sdlc/
+  personas.md                      SDLC reviewer personas for issue, PR, release, and support readiness
+  how-sdlc-works.md                When and how to run SDLC persona review
 
 mcp/
   README.md                        MCP server for exposing EasyEA resources, prompts, and validation tools

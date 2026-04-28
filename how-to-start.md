@@ -44,9 +44,10 @@ Claude guides the engagement. You do not need to manage the process, but you do 
 | Derives capabilities from persona pain points | Confirm the capabilities match what you actually need |
 | Validates each capability against the criteria | Flag anything that feels wrong or missing |
 | Runs simulated ARB review at the decision step | Decide which findings need to be addressed before moving forward |
+| Runs simulated SDLC review before implementation | Decide whether the work is ready to become issues, PRs, releases, or support plans |
 | Produces markdown artifacts at each step | Use them as input for the next phase of work |
 
-Claude may simulate users, reviewers, or scenarios to help you think. Treat those simulations as prompts for better questions, not as proof. If something is based on assumption or simulation, it should be labeled that way before it drives a decision.
+Claude may simulate users, reviewers, delivery roles, or scenarios to help you think. Treat those simulations as prompts for better questions, not as proof. If something is based on assumption or simulation, it should be labeled that way before it drives a decision.
 
 ---
 
