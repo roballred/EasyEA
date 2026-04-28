@@ -67,3 +67,12 @@ Each entry includes the context in which it was discovered, a recommended change
 **Discovered during:** Technology Request Portal ARB review (Step 5)
 **Context:** The ARB framework lists ten personas and gives guidance on which to select based on decision type, but provides no guidance on how many to activate for a given decision size or risk level.
 **Resolution:** Added decision sizing guide to `CLAUDE.md` and `arb/how-arb-works.md` — small/low-risk (1–2 personas), standard (3–5), significant/high-risk (6–10).
+
+---
+
+### FI-08 — Human Leadership, Simulation Labels, and Implementation Gates
+**Issue:** [#37](https://github.com/roballred/EasyEA/issues/37)
+**Status:** Drafted
+**Discovered during:** GovEA instance-admin boundary analysis and follow-on EasyEA methodology review
+**Context:** EasyEA successfully structures AI-enabled development through personas, capabilities, issues, and PRs. However, the framework did not consistently distinguish human decisions, simulated critique, validated evidence, and implementation readiness. This creates a risk that AI-generated assumptions or simulated ARB findings quietly drive implementation as if they were validated facts.
+**Recommended change:** Make "Human in the Lead" an explicit principle and workflow directive. Add evidence labels for human-confirmed, evidence-backed, simulated, and assumption-based statements. Add decision gates between discovery, persona definition, opportunity selection, option recommendation, coordination, and implementation readiness. Require simulated outputs to stay small, decision-oriented, and tied to evidence levels.

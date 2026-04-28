@@ -10,6 +10,8 @@ Every capability, design decision, and business rule must trace back to at least
 
 **System role:** [Submitter / Admin / Viewer / etc.]
 **Capabilities served:** [Fill in after capabilities.md is complete]
+**Evidence status:** Assumption / Human-confirmed / Evidence-backed / Validated with users
+**Evidence source:** [Human confirmation, interview, support ticket pattern, analytics, policy, observation, or "needs validation"]
 
 [2–3 sentences describing who this person is, what their job involves, and their relationship to the problem.]
 
@@ -25,12 +27,17 @@ Every capability, design decision, and business rule must trace back to at least
 
 > **Critical insight:** [The one thing about this persona that most affects whether the work succeeds or fails.]
 
+**Open assumptions**
+- [Assumption about this persona that must be confirmed before implementation]
+
 ---
 
 ## [Next Persona Name] — [One-Line Description]
 
 **System role:** [Role]
 **Capabilities served:** [Fill in after capabilities.md is complete]
+**Evidence status:** Assumption / Human-confirmed / Evidence-backed / Validated with users
+**Evidence source:** [Source or validation need]
 
 [Description]
 
@@ -43,6 +50,9 @@ Every capability, design decision, and business rule must trace back to at least
 - [Goal]
 
 > **Critical insight:** [The insight that shapes decisions for this persona.]
+
+**Open assumptions**
+- [Assumption]
 
 ---
 
@@ -61,3 +71,18 @@ Every capability, design decision, and business rule must trace back to at least
     ↓
 [Outcome for the organization or the people it serves]
 ```
+
+---
+
+## Human Decision Gate
+
+Before moving to Step 3 or using personas to drive implementation-ready capabilities, the human confirms:
+
+- [ ] Personas represent the right people affected by the work
+- [ ] Any assumed personas are marked and have a validation plan
+- [ ] Pain points and goals are specific enough to guide capability definition
+- [ ] No assumed persona is the sole basis for implementation without explicit human acceptance
+
+**Gate decision:** Proceed / Revise / Pause
+**Decision owner:** [Name or role]
+**Date:** [Date]

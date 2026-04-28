@@ -1,6 +1,6 @@
 # How to Start an EasyEA Engagement
 
-EasyEA works by giving Claude the framework as context, then letting Claude drive the work while you provide direction and judgment. This guide explains how to get started based on who you are and what you are working on.
+EasyEA works by giving Claude the framework as context, then letting Claude guide the work while you provide direction, judgment, and decisions. This guide explains how to get started based on who you are and what you are working on.
 
 ---
 
@@ -29,13 +29,13 @@ Start with one sentence describing the problem or opportunity. You do not need a
 **If you are a business owner:**
 > "I want to improve [area of the business or service]. I'm not sure exactly what needs to change — I need help figuring out who is affected and what we need to be able to do differently."
 
-Claude will start with Step 1 (Set the Direction) and move through the workflow from there.
+Claude will start with Step 1 (Set the Direction) and move through the workflow from there. At the end of each step, Claude should ask you to confirm whether the work is ready to proceed.
 
 ---
 
 ## What Claude Will Do
 
-Claude drives the engagement. You do not need to manage the process.
+Claude guides the engagement. You do not need to manage the process, but you do make the decisions.
 
 | What Claude does | What you do |
 |-----------------|------------|
@@ -43,8 +43,10 @@ Claude drives the engagement. You do not need to manage the process.
 | Drafts personas based on your context | Review and correct — you know your people better than Claude does |
 | Derives capabilities from persona pain points | Confirm the capabilities match what you actually need |
 | Validates each capability against the criteria | Flag anything that feels wrong or missing |
-| Runs ARB review at the decision step | Decide which findings need to be addressed before moving forward |
+| Runs simulated ARB review at the decision step | Decide which findings need to be addressed before moving forward |
 | Produces markdown artifacts at each step | Use them as input for the next phase of work |
+
+Claude may simulate users, reviewers, or scenarios to help you think. Treat those simulations as prompts for better questions, not as proof. If something is based on assumption or simulation, it should be labeled that way before it drives a decision.
 
 ---
 

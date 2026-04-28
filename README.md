@@ -1,6 +1,6 @@
 # EasyEA
 
-A lightweight, human-centered, AI-guided Enterprise Architecture framework.
+A lightweight, human-led, AI-guided Enterprise Architecture framework.
 
 EasyEA helps people who want to create value in an organization work with AI to define what needs to be built — and produce structured artifacts that AI can use to build it.
 
@@ -37,13 +37,13 @@ Then tell your AI what you are working on:
 
 > *"I am a [product owner / architect / business owner] working on [problem or product]. Let's start an EasyEA engagement."*
 
-AI drives from there — starting with personas and moving through the workflow step by step. See `how-to-start.md` for full instructions by role.
+AI guides the structure from there — starting with personas and moving through the workflow step by step. The human stays in the lead: AI drafts, simulates, and challenges; humans confirm decisions and decide when work is ready to move forward. See `how-to-start.md` for full instructions by role.
 
 ---
 
 ## How It Works
 
-EasyEA is not a document you read and apply. AI reads the framework and drives the work. Your job is to provide context, answer questions, and make decisions.
+EasyEA is not a document you read and apply. AI reads the framework and guides the work. Your job is to provide context, answer questions, make decisions, and decide when evidence is strong enough to proceed.
 
 **The core chain:**
 
@@ -59,7 +59,7 @@ Actionable artifacts — structured enough for AI to design and build from
 
 Every capability traces back to a persona's pain point. Nothing gets built without a person behind it.
 
-At the decision step, the built-in ARB review runs a structured critique using ten reviewer personas — surfacing blind spots before the organization commits to a direction.
+At the decision step, the built-in ARB review runs a structured simulated critique using reviewer personas — surfacing blind spots before the organization commits to a direction. ARB output is not validation; it is decision support that must be weighed by a human alongside real evidence.
 
 ---
 
@@ -70,7 +70,7 @@ CLAUDE.md                          AI operating instructions for this framework
 how-to-start.md                    Plain-language guide for first-time users
 
 framework/
-  principles.md                    Nine principles that govern all work
+  principles.md                    Ten principles that govern all work
   workflow.md                      The 7-step EasyEA workflow
   capability-criteria.md           How to validate a capability — including AI-actionability
 
@@ -97,11 +97,12 @@ FRAMEWORK-IMPROVEMENTS.md          Gaps discovered through real work, tracked as
 2. Value at Every Step
 3. People-Centered by Design
 4. AI-Enabled from the Beginning
-5. Solve Real Problems
-6. Simplicity Over Completeness
-7. Lightweight and Built for Everyday Work
-8. Collaborative by Default
-9. Designed to Evolve
+5. Human in the Lead
+6. Solve Real Problems
+7. Simplicity Over Completeness
+8. Lightweight and Built for Everyday Work
+9. Collaborative by Default
+10. Designed to Evolve
 
 Full detail in `framework/principles.md`.
 
