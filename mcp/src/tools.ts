@@ -203,7 +203,7 @@ export function registerTools(server: McpServer): void {
       addIf(["data", "quality", "governance", "analytics"], "Grace Holloway — Data & Analytics Architect");
       addIf(["audit", "evidence", "maturity", "governance"], "Jordan Hayes — Architecture Governance Auditor");
       addIf(["reuse", "duplication", "capability"], "Sarah Kim — Enterprise Architect");
-      addIf(["strategy", "shared", "platform", "enterprise"], "Thomas Reed — Central IT Director");
+      addIf(["strategy", "shared", "platform", "enterprise"], "Thomas Reed — State CIO");
       addIf(["operations", "support", "rollback", "production"], "Jake Lawson — Veteran Architect");
 
       const limits = {

@@ -138,7 +138,7 @@ Compare a small set of options, weigh trade-offs and risks, and select the appro
 - What are the risks if each option fails or goes wrong?
 - Which option best serves the personas and the business goals?
 
-**Run ARB critique here.** See `arb/how-arb-works.md` for which personas to activate and how.
+**Run ARB critique here.** See `EasyARB/how-arb-works.md` for which personas to activate and how.
 
 ARB findings must be labeled **Simulated**. They can raise confidence, reveal risk, and shape questions, but they do not validate the decision.
 
@@ -174,7 +174,7 @@ Turn the decision into clear steps, responsibilities, funding alignment, and che
 - Capabilities trace to human-confirmed or evidence-backed persona needs
 - Ownership, testing, and success measures are clear enough to build against
 
-**Run SDLC persona review here when implementation work is about to begin.** See `sdlc/how-sdlc-works.md` for which personas to activate and how.
+**Run SDLC persona review here when implementation work is about to begin.** See `EasySDLC/how-sdlc-works.md` for which personas to activate and how.
 
 SDLC findings must be labeled **Simulated**. They can reveal issue-shaping, testing, deployment, support, documentation, or release risks, but they do not approve implementation.
 

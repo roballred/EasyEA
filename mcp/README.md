@@ -53,7 +53,7 @@ For this checkout, the command is:
   "mcpServers": {
     "easyea": {
       "command": "node",
-      "args": ["/Users/roballred/govea-app/easy-ea/mcp/dist/index.js"]
+      "args": ["/Users/roballred/Claude/GovEA/EasyEA/mcp/dist/index.js"]
     }
   }
 }
@@ -68,10 +68,10 @@ For this checkout, the command is:
 - `easyea://framework/principles`
 - `easyea://framework/workflow`
 - `easyea://framework/capability-criteria`
-- `easyea://arb/how-it-works`
-- `easyea://arb/personas`
-- `easyea://sdlc/how-it-works`
-- `easyea://sdlc/personas`
+- `easyea://easyarb/how-it-works`
+- `easyea://personas/index`
+- `easyea://easysdlc/how-it-works`
+- `easyea://easysdlc/methodology`
 - `easyea://templates/direction`
 - `easyea://templates/personas`
 - `easyea://templates/capabilities`

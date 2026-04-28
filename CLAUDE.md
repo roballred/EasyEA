@@ -111,8 +111,8 @@ For each persona you activate:
 - Label each finding as simulated and assign an evidence level: none, assumption, human-confirmed, or evidence-backed
 - Incorporate the findings before recommending a way forward
 
-**ARB personas:** `arb/personas.md`
-**How ARB works:** `arb/how-arb-works.md`
+**ARB personas:** `personas/README.md` (shared library)
+**How ARB works:** `EasyARB/how-arb-works.md`
 
 ---
 
@@ -122,7 +122,7 @@ After Step 6 (Coordinate the Work), and before opening implementation issues, dr
 
 SDLC personas do not decide what to build. They check whether the selected work is small enough, testable enough, deployable enough, supportable enough, and documented enough to move into implementation.
 
-Use `sdlc/how-sdlc-works.md` and `sdlc/personas.md`.
+Use `EasySDLC/how-sdlc-works.md` and the shared persona library at `personas/README.md`. For agent operating methodology, see `EasySDLC/methodology.md`.
 
 Always include **Jordan Lee** (Delivery Lead) when shaping implementation issues. Every issue needs a clear slice, owner, and acceptance criteria.
 
