@@ -66,7 +66,7 @@ Each entry includes the context in which it was discovered, a recommended change
 **Status:** Resolved — commit `6123573`
 **Discovered during:** Technology Request Portal ARB review (Step 5)
 **Context:** The ARB framework lists ten personas and gives guidance on which to select based on decision type, but provides no guidance on how many to activate for a given decision size or risk level.
-**Resolution:** Added decision sizing guide to `CLAUDE.md` and `arb/how-arb-works.md` — small/low-risk (1–2 personas), standard (3–5), significant/high-risk (6–10).
+**Resolution:** Added decision sizing guide to `CLAUDE.md` and `EasyARB/how-arb-works.md` — small/low-risk (1–2 personas), standard (3–5), significant/high-risk (6–10).
 
 ---
 

@@ -74,13 +74,16 @@ framework/
   workflow.md                      The 7-step EasyEA workflow
   capability-criteria.md           How to validate a capability — including AI-actionability
 
-arb/
-  personas.md                      ARB reviewer personas with modes
+personas/                          Shared persona library — one file per persona
+  README.md                        Index, modes, validated/provisional status
+  business-architect.md            Lisa Rodriguez (and 20 more)
+
+EasyARB/
   how-arb-works.md                 When and how to run an ARB review
 
-sdlc/
-  personas.md                      SDLC reviewer personas for issue, PR, release, and support readiness
+EasySDLC/
   how-sdlc-works.md                When and how to run SDLC persona review
+  methodology.md                   How SDLC agents do their work
 
 mcp/
   README.md                        MCP server for exposing EasyEA resources, prompts, and validation tools

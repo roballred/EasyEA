@@ -51,31 +51,31 @@ export const artifacts: EasyEaArtifact[] = [
   },
   {
     id: "arb-how-it-works",
-    uri: "easyea://arb/how-it-works",
-    title: "How ARB Works",
+    uri: "easyea://easyarb/how-it-works",
+    title: "How EasyARB Works",
     description: "Guidance for simulated ARB critique in EasyEA.",
-    path: "arb/how-arb-works.md"
+    path: "EasyARB/how-arb-works.md"
   },
   {
-    id: "arb-personas",
-    uri: "easyea://arb/personas",
-    title: "ARB Personas",
-    description: "Reviewer personas used for simulated ARB critique.",
-    path: "arb/personas.md"
+    id: "personas-index",
+    uri: "easyea://personas/index",
+    title: "Persona Library Index",
+    description: "Index of the shared persona library used by EasyARB and EasySDLC, including modes and validated/provisional status.",
+    path: "personas/README.md"
   },
   {
     id: "sdlc-how-it-works",
-    uri: "easyea://sdlc/how-it-works",
-    title: "How SDLC Personas Work",
+    uri: "easyea://easysdlc/how-it-works",
+    title: "How EasySDLC Works",
     description: "Guidance for simulated SDLC persona review in EasyEA.",
-    path: "sdlc/how-sdlc-works.md"
+    path: "EasySDLC/how-sdlc-works.md"
   },
   {
-    id: "sdlc-personas",
-    uri: "easyea://sdlc/personas",
-    title: "SDLC Personas",
-    description: "Delivery personas used for simulated implementation-readiness critique.",
-    path: "sdlc/personas.md"
+    id: "sdlc-methodology",
+    uri: "easyea://easysdlc/methodology",
+    title: "EasySDLC Agent Methodology",
+    description: "How SDLC agents do their work — operating pattern for an agent invoked as an SDLC persona.",
+    path: "EasySDLC/methodology.md"
   },
   {
     id: "template-direction",
