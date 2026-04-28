@@ -155,4 +155,40 @@ export function registerPrompts(server: McpServer): void {
       ]
     })
   );
+
+  server.registerPrompt(
+    "run-sdlc-review",
+    {
+      title: "Run SDLC Persona Review",
+      description: "Run a concise, clearly labeled simulated SDLC review for issue, PR, release, or support readiness.",
+      argsSchema: {
+        reviewPoint: z
+          .enum(["Issue Shaping", "Build Planning", "PR Readiness", "Release Readiness", "Learning Review"])
+          .describe("The SDLC review point to run"),
+        work: z.string().describe("Capability, issue, PR, release plan, or delivery summary to review"),
+        focus: z.string().optional().describe("Specific concern, such as testing, deployment, support, security, or documentation")
+      }
+    },
+    ({ reviewPoint, work, focus }) => ({
+      messages: [
+        {
+          role: "user",
+          content: {
+            type: "text",
+            text: [
+              "Run an EasyEA SDLC persona review.",
+              "",
+              `Review point: ${reviewPoint}`,
+              `Focus: ${focus ?? "Select the most relevant SDLC personas"}`,
+              `Work to review:\n${work}`,
+              "",
+              "Use the SDLC persona guidance. Label all findings as Simulated unless tied to real evidence.",
+              "Keep findings small, delivery-oriented, and tied to evidence level and next action.",
+              "Do not treat the SDLC result as validation, approval, or permission to build."
+            ].join("\n")
+          }
+        }
+      ]
+    })
+  );
 }

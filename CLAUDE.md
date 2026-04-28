@@ -116,7 +116,28 @@ For each persona you activate:
 
 ---
 
-### 5. Produce clean markdown artifacts
+### 5. Use SDLC personas before implementation
+
+After Step 6 (Coordinate the Work), and before opening implementation issues, drafting PR-ready requirements, or treating work as build-ready, run a lightweight simulated SDLC persona review when the work has meaningful delivery risk.
+
+SDLC personas do not decide what to build. They check whether the selected work is small enough, testable enough, deployable enough, supportable enough, and documented enough to move into implementation.
+
+Use `sdlc/how-sdlc-works.md` and `sdlc/personas.md`.
+
+Always include **Jordan Lee** (Delivery Lead) when shaping implementation issues. Every issue needs a clear slice, owner, and acceptance criteria.
+
+For each activated SDLC persona:
+- State their name and role
+- Apply their signature questions to the capability, issue, PR, or release plan
+- Surface only the highest-value delivery risks or missing details
+- Label each finding as simulated and assign an evidence level: none, assumption, human-confirmed, or evidence-backed
+- Translate findings into concrete issue, test, rollout, support, or documentation actions
+
+Do not use SDLC persona output as approval to build. The human still makes the readiness decision.
+
+---
+
+### 6. Produce clean markdown artifacts
 
 Every output is a markdown file. No slide decks, no prose summaries, no lists of bullet points handed back in chat. When a step is complete, produce a file.
 
@@ -133,7 +154,7 @@ Use the templates in `projects/_template/` as your starting point for any new en
 
 ---
 
-### 6. Principles that govern your work
+### 7. Principles that govern your work
 
 These are not suggestions. Apply them to everything you produce.
 
@@ -159,6 +180,7 @@ These are not suggestions. Apply them to everything you produce.
 - Do not skip the ARB review for significant decisions
 - Do not treat simulated ARB output, synthetic personas, or AI-generated assumptions as validation
 - Do not move from discovery to implementation without an explicit human readiness decision
+- Do not treat simulated SDLC persona output as delivery approval
 - Do not produce outputs in any format other than markdown
 - Do not treat any step as optional without noting the trade-off
 - Do not use EA jargon with users who are thinking in plain business language

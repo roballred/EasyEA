@@ -220,4 +220,68 @@ export function registerTools(server: McpServer): void {
       });
     }
   );
+
+  server.registerTool(
+    "recommend_sdlc_personas",
+    {
+      title: "Recommend SDLC Personas",
+      description: "Recommend simulated SDLC personas based on review point and delivery focus.",
+      inputSchema: {
+        reviewPoint: z.enum(["Issue Shaping", "Build Planning", "PR Readiness", "Release Readiness", "Learning Review"]),
+        workSize: z.enum(["small", "standard", "significant"]),
+        focusAreas: z
+          .array(z.string())
+          .optional()
+          .describe("Focus areas such as frontend, backend, testing, deployment, support, documentation, security, data, or capacity")
+      },
+      annotations: {
+        readOnlyHint: true,
+        idempotentHint: true
+      }
+    },
+    async ({ reviewPoint, workSize, focusAreas = [] }) => {
+      const normalized = focusAreas.map((area) => area.toLowerCase());
+      const recommendations = new Set<string>();
+
+      if (reviewPoint === "Issue Shaping") {
+        recommendations.add("Jordan Lee — Delivery Lead");
+      }
+
+      const addIf = (terms: string[], persona: string) => {
+        if (normalized.some((area) => terms.some((term) => area.includes(term)))) {
+          recommendations.add(persona);
+        }
+      };
+
+      addIf(["scope", "issue", "acceptance", "slice"], "Jordan Lee — Delivery Lead");
+      addIf(["frontend", "ui", "accessibility", "responsive", "state"], "Priya Shah — Frontend Engineer");
+      addIf(["backend", "api", "service", "domain", "logic"], "Marco Alvarez — Backend Engineer");
+      addIf(["test", "qa", "regression", "acceptance"], "Nina Patel — QA Engineer");
+      addIf(["deploy", "release", "rollback", "monitor", "observability", "config"], "Sam Rivera — DevOps Engineer");
+      addIf(["security", "authorization", "secret", "input"], "Omar Brooks — Application Security Engineer");
+      addIf(["data", "migration", "report", "quality"], "Grace Lin — Data Engineer");
+      addIf(["support", "runbook", "incident", "help"], "Taylor Morgan — Support Analyst");
+      addIf(["docs", "documentation", "training", "release notes"], "Casey Nguyen — Documentation and Training Lead");
+      addIf(["capacity", "dependency", "sequence", "team"], "Morgan Ellis — Engineering Manager");
+
+      if (recommendations.size === 0) {
+        recommendations.add("Jordan Lee — Delivery Lead");
+        recommendations.add("Nina Patel — QA Engineer");
+      }
+
+      const limits = {
+        small: 2,
+        standard: 5,
+        significant: 10
+      } as const;
+
+      return asText({
+        reviewPoint,
+        workSize,
+        recommendedCount: limits[workSize],
+        personas: Array.from(recommendations).slice(0, limits[workSize]),
+        note: "SDLC persona output is simulated critique, not validation or delivery approval."
+      });
+    }
+  );
 }
