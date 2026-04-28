@@ -78,6 +78,9 @@ arb/
   personas.md                      Ten ARB reviewer personas with modes
   how-arb-works.md                 When and how to run an ARB review
 
+mcp/
+  README.md                        MCP server for exposing EasyEA resources, prompts, and validation tools
+
 projects/
   _template/                       Starter templates for a new engagement
     direction.md
